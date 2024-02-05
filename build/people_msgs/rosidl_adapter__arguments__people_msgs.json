@@ -1,0 +1,10 @@
+{
+  "package_name": "people_msgs",
+  "non_idl_tuples": [
+    "/home/alex/ros2_ws/src/People_msgs:msg/People.msg",
+    "/home/alex/ros2_ws/src/People_msgs:msg/Person.msg",
+    "/home/alex/ros2_ws/src/People_msgs:msg/PersonStamped.msg",
+    "/home/alex/ros2_ws/src/People_msgs:msg/PositionMeasurement.msg",
+    "/home/alex/ros2_ws/src/People_msgs:msg/PositionMeasurementArray.msg"
+  ]
+}

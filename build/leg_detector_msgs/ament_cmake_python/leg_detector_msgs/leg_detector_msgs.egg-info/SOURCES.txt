@@ -1,0 +1,11 @@
+setup.py
+leg_detector_msgs/__init__.py
+leg_detector_msgs.egg-info/PKG-INFO
+leg_detector_msgs.egg-info/SOURCES.txt
+leg_detector_msgs.egg-info/dependency_links.txt
+leg_detector_msgs.egg-info/top_level.txt
+leg_detector_msgs/msg/__init__.py
+leg_detector_msgs/msg/_human.py
+leg_detector_msgs/msg/_human_array.py
+leg_detector_msgs/msg/_leg.py
+leg_detector_msgs/msg/_leg_array.py

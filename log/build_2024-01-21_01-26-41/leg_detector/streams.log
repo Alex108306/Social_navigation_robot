@@ -1,0 +1,75 @@
+[0.082s] Invoking command in '/home/alex/ros2_ws/build/leg_detector': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector -- -j4 -l4
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target inflated_human_scan[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target local_occupancy_grid_mapping[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target detect_leg_clusters[0m
+[0.169s] [ 11%] [32mBuilding CXX object CMakeFiles/inflated_human_scan.dir/src/inflated_human_scan.cpp.o[0m
+[0.174s] [ 22%] [32mBuilding CXX object CMakeFiles/local_occupancy_grid_mapping.dir/src/local_occupancy_grid_mapping.cpp.o[0m
+[0.179s] [ 33%] [32mBuilding CXX object CMakeFiles/detect_leg_clusters.dir/src/detect_leg_clusters.cpp.o[0m
+[3.443s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:49:57:[m[K [01;31m[Kerror: [m[K‘[01m[KPersonArray[m[K’ is not a member of ‘[01m[Kleg_detector_msgs::msg[m[K’
+[3.444s]    49 |     message_filters::Subscriber<leg_detector_msgs::msg::[01;31m[KPersonArray[m[K> people_tracked_sub_;
+[3.444s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[3.444s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:49:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.444s]    49 |     message_filters::Subscriber<leg_detector_msgs::msg::PersonArray[01;31m[K>[m[K people_tracked_sub_;
+[3.444s]       |                                                                    [01;31m[K^[m[K
+[3.444s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:50:92:[m[K [01;31m[Kerror: [m[K‘[01m[KPersonArray[m[K’ is not a member of ‘[01m[Kleg_detector_msgs::msg[m[K’
+[3.444s]    50 |     message_filters::TimeSynchronizer<sensor_msgs::msg::LaserScan, leg_detector_msgs::msg::[01;31m[KPersonArray[m[K> sync_;
+[3.444s]       |                                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[3.444s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:50:103:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.444s]    50 |     message_filters::TimeSynchronizer<sensor_msgs::msg::LaserScan, leg_detector_msgs::msg::PersonArray[01;31m[K>[m[K sync_;
+[3.445s]       |                                                                                                       [01;31m[K^[m[K
+[3.448s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:64:[m[K [01;31m[Kerror: [m[K‘[01m[KPersonArray[m[K’ in namespace ‘[01m[Kleg_detector_msgs::msg[m[K’ does not name a type
+[3.448s]    65 |                                  const leg_detector_msgs::msg::[01;31m[KPersonArray[m[K::ConstSharedPtr &people_tracked) {
+[3.448s]       |                                                                [01;31m[K^~~~~~~~~~~[m[K
+[3.448s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:92:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[3.448s]    65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr [01;31m[K&[m[Kpeople_tracked) {
+[3.448s]       |                                                                                            [01;31m[K^[m[K
+[3.448s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[3.448s]    65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr[01;31m[K [m[K[32m[K&[m[Kpeople_tracked) {
+[3.448s]       |                                                                                           [01;31m[K^[m[K[32m[K~[m[K
+[3.448s]       |                                                                                           [32m[K)[m[K
+[3.448s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:64:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.448s]    64 |     void inflated_human_callback[01;36m[K([m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr &scan,
+[3.448s]       |                                 [01;36m[K^[m[K
+[3.449s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:92:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.449s]    65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr [01;31m[K&[m[Kpeople_tracked) {
+[3.449s]       |                                                                                            [01;31m[K^[m[K
+[3.449s]       |                                                                                             [32m[K;[m[K
+[3.452s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kpeople_tracked[m[K’ does not name a type
+[3.452s]    65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr &[01;31m[Kpeople_tracked[m[K) {
+[3.452s]       |                                                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.452s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:[m[K In constructor ‘[01m[KInflatedHumanScanNode::InflatedHumanScanNode()[m[K’:
+[3.453s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:22:11:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in mem-initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.453s]    22 |           [01;31m[Kpeople_tracked_sub_(this, "people_tracked")[m[K,
+[3.453s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.453s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:22:31:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.453s]    22 |           people_tracked_sub_([01;35m[Kthis[m[K, "people_tracked"),
+[3.453s]       |                               [01;35m[K^~~~[m[K
+[3.453s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:22:11:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.453s]    22 |           [01;31m[Kpeople_tracked_sub_(this, "people_tracked")[m[K,
+[3.453s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.453s]       |           [01;31m[K|[m[K
+[3.453s]       |           [01;31m[Kconst char*[m[K
+[3.453s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:23:11:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in mem-initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.453s]    23 |           [01;31m[Ksync_(scan_sub_, people_tracked_sub_, 200)[m[K
+[3.454s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.454s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:23:17:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.454s]    23 |           sync_([01;35m[Kscan_sub_[m[K, people_tracked_sub_, 200)
+[3.454s]       |                 [01;35m[K^~~~~~~~~[m[K
+[3.454s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.454s]    23 |           sync_(scan_sub_, [01;35m[Kpeople_tracked_sub_[m[K, 200)
+[3.454s]       |                            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.454s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:34:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((InflatedHumanScanNode*)this)->InflatedHumanScanNode::people_tracked_sub_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.454s]    34 |         people_tracked_sub_.[01;31m[Ksubscribe[m[K(this, "people_tracked");
+[3.454s]       |                             [01;31m[K^~~~~~~~~[m[K
+[3.454s] [01m[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:39:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KregisterCallback[m[K’ in ‘[01m[K((InflatedHumanScanNode*)this)->InflatedHumanScanNode::sync_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.454s]    39 |         sync_.[01;31m[KregisterCallback[m[K(std::bind(&InflatedHumanScanNode::inflated_human_callback, this, std::placeholders::_1,
+[3.454s]       |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.455s] gmake[2]: *** [CMakeFiles/inflated_human_scan.dir/build.make:76: CMakeFiles/inflated_human_scan.dir/src/inflated_human_scan.cpp.o] Error 1
+[6.456s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/inflated_human_scan.dir/all] Error 2
+[6.456s] gmake[1]: *** Waiting for unfinished jobs....
+[12.157s] [ 44%] [32m[1mLinking CXX executable detect_leg_clusters[0m
+[12.860s] [ 66%] Built target detect_leg_clusters
+[16.856s] [ 77%] [32m[1mLinking CXX executable local_occupancy_grid_mapping[0m
+[17.943s] [ 88%] Built target local_occupancy_grid_mapping
+[17.945s] gmake: *** [Makefile:146: all] Error 2
+[17.947s] Invoked command in '/home/alex/ros2_ws/build/leg_detector' returned '2': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector -- -j4 -l4

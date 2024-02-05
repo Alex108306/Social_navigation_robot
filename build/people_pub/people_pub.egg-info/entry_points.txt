@@ -1,0 +1,3 @@
+[console_scripts]
+people_publish = people_pub.people_publisher:main
+

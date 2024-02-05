@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target local_occupancy_grid_mapping[0m
+[35m[1mConsolidate compiler generated dependencies of target inflated_human_scan[0m
+[35m[1mConsolidate compiler generated dependencies of target detect_leg_clusters[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/inflated_human_scan.dir/src/inflated_human_scan.cpp.o[0m
+[ 44%] Built target local_occupancy_grid_mapping
+[ 88%] Built target detect_leg_clusters
+[100%] [32m[1mLinking CXX executable inflated_human_scan[0m
+[100%] Built target inflated_human_scan
+-- Install configuration: ""
+-- Installing: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/detect_leg_clusters
+-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector/lib/leg_detector/detect_leg_clusters" to ""
+-- Installing: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/local_occupancy_grid_mapping
+-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector/lib/leg_detector/local_occupancy_grid_mapping" to ""
+-- Installing: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/inflated_human_scan
+-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector/lib/leg_detector/inflated_human_scan" to ""
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/launch
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/launch/demo_stationary_simple_environment.launch.py
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/demo_stationary_simple_environment.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/demo_moving_super_crowded.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/demo_stationary_cluttered_environment.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz/demo_stationary_simple_environment.rviz
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz/demo_moving_super_crowded2.rviz
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz/demo_stationary_simple_environment2.rviz
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_7_extracted.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_1.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_3_extracted.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_2_extracted.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_1_extracted.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_2.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_4.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_3.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_4_extracted.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_6_extracted.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_9.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_4.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_3.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_7.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_2.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_6.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_1.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_5.bag
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/config
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/config/trained_leg_detector_res=0.33.yaml
+-- Installing: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/joint_leg_tracker.py
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/ament_index/resource_index/package_run_dependencies/leg_detector
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/ament_index/resource_index/parent_prefix_path/leg_detector
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/ament_prefix_path.sh
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/path.sh
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/path.dsv
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.bash
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.sh
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.zsh
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.dsv
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.dsv
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/ament_index/resource_index/packages/leg_detector
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/cmake/leg_detectorConfig.cmake
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/cmake/leg_detectorConfig-version.cmake
+-- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.xml

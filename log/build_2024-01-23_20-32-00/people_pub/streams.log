@@ -1,0 +1,25 @@
+[0.976s] Invoking command in '/home/alex/ros2_ws/src/people_pub': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/people_pub build --build-base /home/alex/ros2_ws/build/people_pub/build install --record /home/alex/ros2_ws/build/people_pub/install.log --single-version-externally-managed
+[1.249s] running egg_info
+[1.250s] writing ../../build/people_pub/people_pub.egg-info/PKG-INFO
+[1.257s] writing dependency_links to ../../build/people_pub/people_pub.egg-info/dependency_links.txt
+[1.257s] writing entry points to ../../build/people_pub/people_pub.egg-info/entry_points.txt
+[1.257s] writing requirements to ../../build/people_pub/people_pub.egg-info/requires.txt
+[1.257s] writing top-level names to ../../build/people_pub/people_pub.egg-info/top_level.txt
+[1.259s] reading manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'
+[1.260s] adding license file 'LICENSE'
+[1.261s] writing manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'
+[1.262s] running build
+[1.262s] running build_py
+[1.263s] copying people_pub/people_publisher.py -> /home/alex/ros2_ws/build/people_pub/build/lib/people_pub
+[1.263s] running install
+[1.264s] running install_lib
+[1.265s] copying /home/alex/ros2_ws/build/people_pub/build/lib/people_pub/people_publisher.py -> /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub
+[1.265s] byte-compiling /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub/people_publisher.py to people_publisher.cpython-310.pyc
+[1.266s] running install_data
+[1.268s] running install_egg_info
+[1.269s] removing '/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.270s] Copying ../../build/people_pub/people_pub.egg-info to /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub-0.0.0-py3.10.egg-info
+[1.271s] running install_scripts
+[1.292s] Installing people_publish script to /home/alex/ros2_ws/install/people_pub/lib/people_pub
+[1.293s] writing list of installed files to '/home/alex/ros2_ws/build/people_pub/install.log'
+[1.316s] Invoked command in '/home/alex/ros2_ws/src/people_pub' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/people_pub build --build-base /home/alex/ros2_ws/build/people_pub/build install --record /home/alex/ros2_ws/build/people_pub/install.log --single-version-externally-managed

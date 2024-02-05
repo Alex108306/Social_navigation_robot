@@ -1,0 +1,5 @@
+/home/alex/ros2_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/People.idl
+/home/alex/ros2_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/Person.idl
+/home/alex/ros2_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/PersonStamped.idl
+/home/alex/ros2_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/PositionMeasurement.idl
+/home/alex/ros2_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/PositionMeasurementArray.idl

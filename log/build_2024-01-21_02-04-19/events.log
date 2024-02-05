@@ -1,0 +1,354 @@
+[0.000000] (-) TimerEvent: {}
+[0.000672] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.000750] (-) JobUnselected: {'identifier': 'get_state_human'}
+[0.000806] (-) JobUnselected: {'identifier': 'leg_detector'}
+[0.000844] (-) JobUnselected: {'identifier': 'leg_detector_msgs'}
+[0.000880] (-) JobUnselected: {'identifier': 'people_msgs'}
+[0.000905] (-) JobUnselected: {'identifier': 'people_pub'}
+[0.000972] (nav2_social_costmap_plugin) JobQueued: {'identifier': 'nav2_social_costmap_plugin', 'dependencies': OrderedDict([('people_msgs', '/home/alex/ros2_ws/install/people_msgs')])}
+[0.001008] (nav2_social_costmap_plugin) JobStarted: {'identifier': 'nav2_social_costmap_plugin'}
+[0.097080] (-) TimerEvent: {}
+[0.192360] (nav2_social_costmap_plugin) JobProgress: {'identifier': 'nav2_social_costmap_plugin', 'progress': 'cmake'}
+[0.193857] (nav2_social_costmap_plugin) JobProgress: {'identifier': 'nav2_social_costmap_plugin', 'progress': 'build'}
+[0.199775] (nav2_social_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', '--', '-j4', '-l4'], 'cwd': '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/ros2_ws/src/nav2_social_costmap_plugin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '29766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/alex/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77277c89_8f9f_4da4_aaab_7c69a7d5fc98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/get_state_human:/home/alex/ros2_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble')]), 'shell': False}
+[0.207520] (-) TimerEvent: {}
+[0.309126] (-) TimerEvent: {}
+[0.395276] (nav2_social_costmap_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_social_costmap_plugin_core.dir/src/social_layer.cpp.o\x1b[0m\n'}
+[0.409260] (-) TimerEvent: {}
+[0.509737] (-) TimerEvent: {}
+[0.610338] (-) TimerEvent: {}
+[0.710810] (-) TimerEvent: {}
+[0.811082] (-) TimerEvent: {}
+[0.911335] (-) TimerEvent: {}
+[1.011642] (-) TimerEvent: {}
+[1.112202] (-) TimerEvent: {}
+[1.212925] (-) TimerEvent: {}
+[1.313289] (-) TimerEvent: {}
+[1.414721] (-) TimerEvent: {}
+[1.515596] (-) TimerEvent: {}
+[1.616427] (-) TimerEvent: {}
+[1.717203] (-) TimerEvent: {}
+[1.817734] (-) TimerEvent: {}
+[1.918747] (-) TimerEvent: {}
+[2.019525] (-) TimerEvent: {}
+[2.121069] (-) TimerEvent: {}
+[2.221440] (-) TimerEvent: {}
+[2.321904] (-) TimerEvent: {}
+[2.423138] (-) TimerEvent: {}
+[2.523672] (-) TimerEvent: {}
+[2.624101] (-) TimerEvent: {}
+[2.725019] (-) TimerEvent: {}
+[2.825910] (-) TimerEvent: {}
+[2.926662] (-) TimerEvent: {}
+[3.026990] (-) TimerEvent: {}
+[3.127855] (-) TimerEvent: {}
+[3.228423] (-) TimerEvent: {}
+[3.328855] (-) TimerEvent: {}
+[3.432676] (-) TimerEvent: {}
+[3.533084] (-) TimerEvent: {}
+[3.633704] (-) TimerEvent: {}
+[3.734755] (-) TimerEvent: {}
+[3.835625] (-) TimerEvent: {}
+[3.936102] (-) TimerEvent: {}
+[4.036479] (-) TimerEvent: {}
+[4.136851] (-) TimerEvent: {}
+[4.237363] (-) TimerEvent: {}
+[4.337744] (-) TimerEvent: {}
+[4.438231] (-) TimerEvent: {}
+[4.538529] (-) TimerEvent: {}
+[4.638926] (-) TimerEvent: {}
+[4.739375] (-) TimerEvent: {}
+[4.839868] (-) TimerEvent: {}
+[4.941273] (-) TimerEvent: {}
+[5.041601] (-) TimerEvent: {}
+[5.142757] (-) TimerEvent: {}
+[5.244293] (-) TimerEvent: {}
+[5.345103] (-) TimerEvent: {}
+[5.445669] (-) TimerEvent: {}
+[5.548049] (-) TimerEvent: {}
+[5.648370] (-) TimerEvent: {}
+[5.748645] (-) TimerEvent: {}
+[5.849055] (-) TimerEvent: {}
+[5.949928] (-) TimerEvent: {}
+[6.051041] (-) TimerEvent: {}
+[6.154315] (-) TimerEvent: {}
+[6.254553] (-) TimerEvent: {}
+[6.354919] (-) TimerEvent: {}
+[6.455450] (-) TimerEvent: {}
+[6.556440] (-) TimerEvent: {}
+[6.657229] (-) TimerEvent: {}
+[6.757530] (-) TimerEvent: {}
+[6.857949] (-) TimerEvent: {}
+[6.958859] (-) TimerEvent: {}
+[7.059273] (-) TimerEvent: {}
+[7.159597] (-) TimerEvent: {}
+[7.259921] (-) TimerEvent: {}
+[7.360520] (-) TimerEvent: {}
+[7.460974] (-) TimerEvent: {}
+[7.561472] (-) TimerEvent: {}
+[7.662563] (-) TimerEvent: {}
+[7.763214] (-) TimerEvent: {}
+[7.863593] (-) TimerEvent: {}
+[7.963900] (-) TimerEvent: {}
+[8.064297] (-) TimerEvent: {}
+[8.165237] (-) TimerEvent: {}
+[8.268656] (-) TimerEvent: {}
+[8.368937] (-) TimerEvent: {}
+[8.469704] (-) TimerEvent: {}
+[8.571183] (-) TimerEvent: {}
+[8.671569] (-) TimerEvent: {}
+[8.771905] (-) TimerEvent: {}
+[8.872354] (-) TimerEvent: {}
+[8.972700] (-) TimerEvent: {}
+[9.072973] (-) TimerEvent: {}
+[9.173386] (-) TimerEvent: {}
+[9.274273] (-) TimerEvent: {}
+[9.375243] (-) TimerEvent: {}
+[9.476485] (-) TimerEvent: {}
+[9.578022] (-) TimerEvent: {}
+[9.678725] (-) TimerEvent: {}
+[9.780262] (-) TimerEvent: {}
+[9.880668] (-) TimerEvent: {}
+[9.982108] (-) TimerEvent: {}
+[10.082484] (-) TimerEvent: {}
+[10.182903] (-) TimerEvent: {}
+[10.283289] (-) TimerEvent: {}
+[10.383695] (-) TimerEvent: {}
+[10.484095] (-) TimerEvent: {}
+[10.584521] (-) TimerEvent: {}
+[10.686854] (-) TimerEvent: {}
+[10.787375] (-) TimerEvent: {}
+[10.889690] (-) TimerEvent: {}
+[10.991284] (-) TimerEvent: {}
+[11.091781] (-) TimerEvent: {}
+[11.192202] (-) TimerEvent: {}
+[11.292652] (-) TimerEvent: {}
+[11.393646] (-) TimerEvent: {}
+[11.403420] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_social_costmap_plugin::SocialLayer::updateBounds(double, double, double, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.403871] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krobot_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.404107] (nav2_social_costmap_plugin) StderrLine: {'line': b'  121 |   void SocialLayer::updateBounds(\x1b[01;35m\x1b[Kdouble robot_x\x1b[m\x1b[K, double robot_y, double robot_yaw, double *min_x,\n'}
+[11.404283] (nav2_social_costmap_plugin) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.404603] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krobot_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.404730] (nav2_social_costmap_plugin) StderrLine: {'line': b'  121 |   void SocialLayer::updateBounds(double robot_x, \x1b[01;35m\x1b[Kdouble robot_y\x1b[m\x1b[K, double robot_yaw, double *min_x,\n'}
+[11.404809] (nav2_social_costmap_plugin) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.404880] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krobot_yaw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.404965] (nav2_social_costmap_plugin) StderrLine: {'line': b'  121 |   void SocialLayer::updateBounds(double robot_x, double robot_y, \x1b[01;35m\x1b[Kdouble robot_yaw\x1b[m\x1b[K, double *min_x,\n'}
+[11.405037] (nav2_social_costmap_plugin) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.495063] (-) TimerEvent: {}
+[11.595547] (-) TimerEvent: {}
+[11.696098] (-) TimerEvent: {}
+[11.796805] (-) TimerEvent: {}
+[11.897852] (-) TimerEvent: {}
+[12.002206] (-) TimerEvent: {}
+[12.103008] (-) TimerEvent: {}
+[12.204874] (-) TimerEvent: {}
+[12.305279] (-) TimerEvent: {}
+[12.405680] (-) TimerEvent: {}
+[12.506081] (-) TimerEvent: {}
+[12.606572] (-) TimerEvent: {}
+[12.707482] (-) TimerEvent: {}
+[12.808033] (-) TimerEvent: {}
+[12.908337] (-) TimerEvent: {}
+[13.008597] (-) TimerEvent: {}
+[13.108999] (-) TimerEvent: {}
+[13.210750] (-) TimerEvent: {}
+[13.313160] (-) TimerEvent: {}
+[13.414046] (-) TimerEvent: {}
+[13.514362] (-) TimerEvent: {}
+[13.614771] (-) TimerEvent: {}
+[13.715341] (-) TimerEvent: {}
+[13.816318] (-) TimerEvent: {}
+[13.917294] (-) TimerEvent: {}
+[14.017836] (-) TimerEvent: {}
+[14.118550] (-) TimerEvent: {}
+[14.223940] (-) TimerEvent: {}
+[14.324359] (-) TimerEvent: {}
+[14.424782] (-) TimerEvent: {}
+[14.525595] (-) TimerEvent: {}
+[14.626023] (-) TimerEvent: {}
+[14.726555] (-) TimerEvent: {}
+[14.827157] (-) TimerEvent: {}
+[14.927622] (-) TimerEvent: {}
+[15.027927] (-) TimerEvent: {}
+[15.128632] (-) TimerEvent: {}
+[15.229429] (-) TimerEvent: {}
+[15.329710] (-) TimerEvent: {}
+[15.432158] (-) TimerEvent: {}
+[15.533052] (-) TimerEvent: {}
+[15.634020] (-) TimerEvent: {}
+[15.735173] (-) TimerEvent: {}
+[15.835946] (-) TimerEvent: {}
+[15.936258] (-) TimerEvent: {}
+[16.036561] (-) TimerEvent: {}
+[16.138813] (-) TimerEvent: {}
+[16.239795] (-) TimerEvent: {}
+[16.340613] (-) TimerEvent: {}
+[16.440896] (-) TimerEvent: {}
+[16.541384] (-) TimerEvent: {}
+[16.642047] (-) TimerEvent: {}
+[16.742800] (-) TimerEvent: {}
+[16.843176] (-) TimerEvent: {}
+[16.943610] (-) TimerEvent: {}
+[17.043943] (-) TimerEvent: {}
+[17.144272] (-) TimerEvent: {}
+[17.244710] (-) TimerEvent: {}
+[17.345516] (-) TimerEvent: {}
+[17.446720] (-) TimerEvent: {}
+[17.550914] (-) TimerEvent: {}
+[17.651380] (-) TimerEvent: {}
+[17.752003] (-) TimerEvent: {}
+[17.852967] (-) TimerEvent: {}
+[17.953465] (-) TimerEvent: {}
+[18.056898] (-) TimerEvent: {}
+[18.157244] (-) TimerEvent: {}
+[18.257703] (-) TimerEvent: {}
+[18.358278] (-) TimerEvent: {}
+[18.459078] (-) TimerEvent: {}
+[18.559607] (-) TimerEvent: {}
+[18.659914] (-) TimerEvent: {}
+[18.760464] (-) TimerEvent: {}
+[18.861711] (-) TimerEvent: {}
+[18.962184] (-) TimerEvent: {}
+[19.063420] (-) TimerEvent: {}
+[19.164492] (-) TimerEvent: {}
+[19.265611] (-) TimerEvent: {}
+[19.366465] (-) TimerEvent: {}
+[19.469143] (-) TimerEvent: {}
+[19.569699] (-) TimerEvent: {}
+[19.670453] (-) TimerEvent: {}
+[19.771747] (-) TimerEvent: {}
+[19.872196] (-) TimerEvent: {}
+[19.972553] (-) TimerEvent: {}
+[20.073255] (-) TimerEvent: {}
+[20.173619] (-) TimerEvent: {}
+[20.274029] (-) TimerEvent: {}
+[20.374626] (-) TimerEvent: {}
+[20.475532] (-) TimerEvent: {}
+[20.575830] (-) TimerEvent: {}
+[20.676484] (-) TimerEvent: {}
+[20.777444] (-) TimerEvent: {}
+[20.877830] (-) TimerEvent: {}
+[20.978267] (-) TimerEvent: {}
+[21.079433] (-) TimerEvent: {}
+[21.179965] (-) TimerEvent: {}
+[21.280796] (-) TimerEvent: {}
+[21.381296] (-) TimerEvent: {}
+[21.483140] (-) TimerEvent: {}
+[21.583991] (-) TimerEvent: {}
+[21.684422] (-) TimerEvent: {}
+[21.784679] (-) TimerEvent: {}
+[21.885003] (-) TimerEvent: {}
+[21.985689] (-) TimerEvent: {}
+[22.086753] (-) TimerEvent: {}
+[22.187015] (-) TimerEvent: {}
+[22.287262] (-) TimerEvent: {}
+[22.387719] (-) TimerEvent: {}
+[22.488227] (-) TimerEvent: {}
+[22.588447] (-) TimerEvent: {}
+[22.688836] (-) TimerEvent: {}
+[22.789486] (-) TimerEvent: {}
+[22.890182] (-) TimerEvent: {}
+[22.991056] (-) TimerEvent: {}
+[23.091543] (-) TimerEvent: {}
+[23.192061] (-) TimerEvent: {}
+[23.292989] (-) TimerEvent: {}
+[23.393931] (-) TimerEvent: {}
+[23.494307] (-) TimerEvent: {}
+[23.594569] (-) TimerEvent: {}
+[23.694998] (-) TimerEvent: {}
+[23.795917] (-) TimerEvent: {}
+[23.896884] (-) TimerEvent: {}
+[23.997471] (-) TimerEvent: {}
+[24.097879] (-) TimerEvent: {}
+[24.198384] (-) TimerEvent: {}
+[24.298986] (-) TimerEvent: {}
+[24.399490] (-) TimerEvent: {}
+[24.500031] (-) TimerEvent: {}
+[24.600876] (-) TimerEvent: {}
+[24.701144] (-) TimerEvent: {}
+[24.802045] (-) TimerEvent: {}
+[24.903572] (-) TimerEvent: {}
+[25.004289] (-) TimerEvent: {}
+[25.104636] (-) TimerEvent: {}
+[25.205190] (-) TimerEvent: {}
+[25.305490] (-) TimerEvent: {}
+[25.405907] (-) TimerEvent: {}
+[25.506808] (-) TimerEvent: {}
+[25.607864] (-) TimerEvent: {}
+[25.708190] (-) TimerEvent: {}
+[25.809104] (-) TimerEvent: {}
+[25.909727] (-) TimerEvent: {}
+[26.010591] (-) TimerEvent: {}
+[26.111028] (-) TimerEvent: {}
+[26.211861] (-) TimerEvent: {}
+[26.312370] (-) TimerEvent: {}
+[26.414699] (-) TimerEvent: {}
+[26.515225] (-) TimerEvent: {}
+[26.615610] (-) TimerEvent: {}
+[26.716048] (-) TimerEvent: {}
+[26.816968] (-) TimerEvent: {}
+[26.917476] (-) TimerEvent: {}
+[27.018232] (-) TimerEvent: {}
+[27.119237] (-) TimerEvent: {}
+[27.219636] (-) TimerEvent: {}
+[27.320444] (-) TimerEvent: {}
+[27.420705] (-) TimerEvent: {}
+[27.521404] (-) TimerEvent: {}
+[27.622136] (-) TimerEvent: {}
+[27.723513] (-) TimerEvent: {}
+[27.823881] (-) TimerEvent: {}
+[27.924269] (-) TimerEvent: {}
+[28.014996] (nav2_social_costmap_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_social_costmap_plugin_core.so\x1b[0m\n'}
+[28.024494] (-) TimerEvent: {}
+[28.125150] (-) TimerEvent: {}
+[28.225422] (-) TimerEvent: {}
+[28.325684] (-) TimerEvent: {}
+[28.426068] (-) TimerEvent: {}
+[28.527045] (-) TimerEvent: {}
+[28.627734] (-) TimerEvent: {}
+[28.728312] (-) TimerEvent: {}
+[28.829056] (-) TimerEvent: {}
+[28.929421] (-) TimerEvent: {}
+[29.029882] (-) TimerEvent: {}
+[29.130957] (-) TimerEvent: {}
+[29.231417] (-) TimerEvent: {}
+[29.331863] (-) TimerEvent: {}
+[29.433837] (-) TimerEvent: {}
+[29.534092] (-) TimerEvent: {}
+[29.634493] (-) TimerEvent: {}
+[29.735518] (-) TimerEvent: {}
+[29.836305] (-) TimerEvent: {}
+[29.892605] (nav2_social_costmap_plugin) StdoutLine: {'line': b'[100%] Built target nav2_social_costmap_plugin_core\n'}
+[29.915877] (nav2_social_costmap_plugin) CommandEnded: {'returncode': 0}
+[29.936514] (-) TimerEvent: {}
+[30.003199] (nav2_social_costmap_plugin) JobProgress: {'identifier': 'nav2_social_costmap_plugin', 'progress': 'install'}
+[30.020758] (nav2_social_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'], 'cwd': '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/ros2_ws/src/nav2_social_costmap_plugin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '29766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/alex/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77277c89_8f9f_4da4_aaab_7c69a7d5fc98'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/get_state_human:/home/alex/ros2_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble')]), 'shell': False}
+[30.038212] (-) TimerEvent: {}
+[30.045710] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.046150] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/libnav2_social_costmap_plugin_core.so\n'}
+[30.065473] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/libnav2_social_costmap_plugin_core.so" to ""\n'}
+[30.065717] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/social_layer.xml\n'}
+[30.066016] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_social_costmap_plugin\n'}
+[30.067079] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_social_costmap_plugin\n'}
+[30.067839] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/ament_prefix_path.sh\n'}
+[30.068539] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/ament_prefix_path.dsv\n'}
+[30.069391] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/path.sh\n'}
+[30.069711] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/path.dsv\n'}
+[30.069898] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.bash\n'}
+[30.070072] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.sh\n'}
+[30.070222] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.zsh\n'}
+[30.070379] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.dsv\n'}
+[30.070791] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.dsv\n'}
+[30.071737] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/packages/nav2_social_costmap_plugin\n'}
+[30.073811] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_social_costmap_plugin\n'}
+[30.073997] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/cmake/nav2_social_costmap_pluginConfig.cmake\n'}
+[30.074085] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/cmake/nav2_social_costmap_pluginConfig-version.cmake\n'}
+[30.074158] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.xml\n'}
+[30.076038] (nav2_social_costmap_plugin) CommandEnded: {'returncode': 0}
+[30.138344] (-) TimerEvent: {}
+[30.238711] (-) TimerEvent: {}
+[30.339094] (-) TimerEvent: {}
+[30.439666] (-) TimerEvent: {}
+[30.540013] (-) TimerEvent: {}
+[30.570231] (nav2_social_costmap_plugin) JobEnded: {'identifier': 'nav2_social_costmap_plugin', 'rc': 0}
+[30.571378] (-) EventReactorShutdown: {}

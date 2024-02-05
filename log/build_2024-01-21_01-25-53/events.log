@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.000242] (-) JobUnselected: {'identifier': 'get_state_human'}
+[0.000279] (-) JobUnselected: {'identifier': 'leg_detector'}
+[0.000317] (-) JobUnselected: {'identifier': 'nav2_social_costmap_plugin'}
+[0.000351] (-) JobUnselected: {'identifier': 'people_msgs'}
+[0.000388] (-) JobUnselected: {'identifier': 'people_pub'}
+[0.000438] (leg_detector_msgs) JobQueued: {'identifier': 'leg_detector_msgs', 'dependencies': OrderedDict()}
+[0.000461] (leg_detector_msgs) JobStarted: {'identifier': 'leg_detector_msgs'}
+[0.072580] (leg_detector_msgs) JobProgress: {'identifier': 'leg_detector_msgs', 'progress': 'cmake'}
+[0.073453] (leg_detector_msgs) JobProgress: {'identifier': 'leg_detector_msgs', 'progress': 'build'}
+[0.074371] (leg_detector_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/leg_detector_msgs', '--', '-j4', '-l4'], 'cwd': '/home/alex/ros2_ws/build/leg_detector_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af6f3c31_6df7_40f3_a56f_366cb419eb2d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/leg_detector_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099175] (-) TimerEvent: {}
+[0.109542] (leg_detector_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199297] (-) TimerEvent: {}
+[0.292424] (leg_detector_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.299405] (-) TimerEvent: {}
+[0.326271] (leg_detector_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.329722] (leg_detector_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.336016] (leg_detector_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.348120] (leg_detector_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.364872] (leg_detector_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399510] (-) TimerEvent: {}
+[0.422596] (leg_detector_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.471032] (leg_detector_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.499633] (-) TimerEvent: {}
+[0.599929] (-) TimerEvent: {}
+[0.700216] (-) TimerEvent: {}
+[0.800493] (-) TimerEvent: {}
+[0.846006] (leg_detector_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900661] (-) TimerEvent: {}
+[1.000933] (-) TimerEvent: {}
+[1.101220] (-) TimerEvent: {}
+[1.201512] (-) TimerEvent: {}
+[1.301808] (-) TimerEvent: {}
+[1.318274] (leg_detector_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401929] (-) TimerEvent: {}
+[1.502203] (-) TimerEvent: {}
+[1.506807] (leg_detector_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.537342] (leg_detector_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.567516] (leg_detector_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.567696] (leg_detector_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.567792] (leg_detector_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.602305] (-) TimerEvent: {}
+[1.619798] (leg_detector_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.664406] (leg_detector_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.668468] (leg_detector_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/leg_detector_msgs\n'}
+[1.694209] (leg_detector_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.702401] (-) TimerEvent: {}
+[1.706199] (leg_detector_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.716410] (leg_detector_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_leg_detector_msgs\n'}
+[1.802488] (-) TimerEvent: {}
+[1.902747] (-) TimerEvent: {}
+[2.002987] (-) TimerEvent: {}
+[2.009181] (leg_detector_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.009982] (leg_detector_msgs) StdoutLine: {'line': b'writing leg_detector_msgs.egg-info/PKG-INFO\n'}
+[2.010217] (leg_detector_msgs) StdoutLine: {'line': b'writing dependency_links to leg_detector_msgs.egg-info/dependency_links.txt\n'}
+[2.010375] (leg_detector_msgs) StdoutLine: {'line': b'writing top-level names to leg_detector_msgs.egg-info/top_level.txt\n'}
+[2.012624] (leg_detector_msgs) StdoutLine: {'line': b"reading manifest file 'leg_detector_msgs.egg-info/SOURCES.txt'\n"}
+[2.013280] (leg_detector_msgs) StdoutLine: {'line': b"writing manifest file 'leg_detector_msgs.egg-info/SOURCES.txt'\n"}
+[2.041628] (leg_detector_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_leg_detector_msgs_egg\n'}
+[2.103085] (-) TimerEvent: {}
+[2.156387] (leg_detector_msgs) StdoutLine: {'line': b'[  3%] Built target leg_detector_msgs__cpp\n'}
+[2.167755] (leg_detector_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.176937] (leg_detector_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.203179] (-) TimerEvent: {}
+[2.205222] (leg_detector_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.209967] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.224887] (leg_detector_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/leg_detector_msgs/msg/detail/human__functions.c.o\x1b[0m\n'}
+[2.281689] (leg_detector_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/leg_detector_msgs/msg/detail/human_array__functions.c.o\x1b[0m\n'}
+[2.303270] (-) TimerEvent: {}
+[2.339582] (leg_detector_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/leg_detector_msgs/msg/detail/leg__functions.c.o\x1b[0m\n'}
+[2.394645] (leg_detector_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/leg_detector_msgs/msg/detail/leg_array__functions.c.o\x1b[0m\n'}
+[2.403359] (-) TimerEvent: {}
+[2.452986] (leg_detector_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libleg_detector_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.498317] (leg_detector_msgs) StdoutLine: {'line': b'[ 18%] Built target leg_detector_msgs__rosidl_generator_c\n'}
+[2.503453] (-) TimerEvent: {}
+[2.505927] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.510439] (leg_detector_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.523637] (leg_detector_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leg_detector_msgs/msg/human__type_support.cpp.o\x1b[0m\n'}
+[2.603545] (-) TimerEvent: {}
+[2.621219] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.629890] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.640851] (leg_detector_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leg_detector_msgs/msg/detail/human__type_support.cpp.o\x1b[0m\n'}
+[2.648381] (leg_detector_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leg_detector_msgs/msg/detail/dds_fastrtps/human__type_support.cpp.o\x1b[0m\n'}
+[2.703644] (-) TimerEvent: {}
+[2.803897] (-) TimerEvent: {}
+[2.832467] (leg_detector_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leg_detector_msgs/msg/human_array__type_support.cpp.o\x1b[0m\n'}
+[2.904006] (-) TimerEvent: {}
+[2.968951] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.987812] (leg_detector_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leg_detector_msgs/msg/detail/human__type_support_c.cpp.o\x1b[0m\n'}
+[3.004109] (-) TimerEvent: {}
+[3.070815] (leg_detector_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leg_detector_msgs/msg/detail/human_array__type_support.cpp.o\x1b[0m\n'}
+[3.094589] (leg_detector_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leg_detector_msgs/msg/detail/dds_fastrtps/human_array__type_support.cpp.o\x1b[0m\n'}
+[3.104209] (-) TimerEvent: {}
+[3.140810] (leg_detector_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leg_detector_msgs/msg/leg__type_support.cpp.o\x1b[0m\n'}
+[3.204315] (-) TimerEvent: {}
+[3.304661] (-) TimerEvent: {}
+[3.387157] (leg_detector_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leg_detector_msgs/msg/detail/human_array__type_support_c.cpp.o\x1b[0m\n'}
+[3.404760] (-) TimerEvent: {}
+[3.445411] (leg_detector_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leg_detector_msgs/msg/leg_array__type_support.cpp.o\x1b[0m\n'}
+[3.504853] (-) TimerEvent: {}
+[3.547712] (leg_detector_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leg_detector_msgs/msg/detail/leg__type_support.cpp.o\x1b[0m\n'}
+[3.590992] (leg_detector_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leg_detector_msgs/msg/detail/dds_fastrtps/leg__type_support.cpp.o\x1b[0m\n'}
+[3.604949] (-) TimerEvent: {}
+[3.705292] (-) TimerEvent: {}
+[3.750882] (leg_detector_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libleg_detector_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.783820] (leg_detector_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leg_detector_msgs/msg/detail/leg__type_support_c.cpp.o\x1b[0m\n'}
+[3.801354] (leg_detector_msgs) StdoutLine: {'line': b'[ 45%] Built target leg_detector_msgs__rosidl_typesupport_cpp\n'}
+[3.805386] (-) TimerEvent: {}
+[3.813877] (leg_detector_msgs) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.905480] (-) TimerEvent: {}
+[3.999812] (leg_detector_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leg_detector_msgs/msg/detail/leg_array__type_support.cpp.o\x1b[0m\n'}
+[4.005567] (-) TimerEvent: {}
+[4.059512] (leg_detector_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leg_detector_msgs/msg/detail/dds_fastrtps/leg_array__type_support.cpp.o\x1b[0m\n'}
+[4.105660] (-) TimerEvent: {}
+[4.177040] (leg_detector_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leg_detector_msgs/msg/detail/leg_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.205761] (-) TimerEvent: {}
+[4.256512] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.271921] (leg_detector_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human__type_support.c.o\x1b[0m\n'}
+[4.305857] (-) TimerEvent: {}
+[4.314258] (leg_detector_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human_array__type_support.c.o\x1b[0m\n'}
+[4.361240] (leg_detector_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg__type_support.c.o\x1b[0m\n'}
+[4.403065] (leg_detector_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg_array__type_support.c.o\x1b[0m\n'}
+[4.405954] (-) TimerEvent: {}
+[4.453136] (leg_detector_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libleg_detector_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.482163] (leg_detector_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libleg_detector_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.499854] (leg_detector_msgs) StdoutLine: {'line': b'[ 63%] Built target leg_detector_msgs__rosidl_typesupport_introspection_c\n'}
+[4.506055] (-) TimerEvent: {}
+[4.512782] (leg_detector_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.558883] (leg_detector_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libleg_detector_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.571591] (leg_detector_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libleg_detector_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.581016] (leg_detector_msgs) StdoutLine: {'line': b'[ 69%] Built target leg_detector_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.606155] (-) TimerEvent: {}
+[4.657549] (leg_detector_msgs) StdoutLine: {'line': b'[ 69%] Built target leg_detector_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.669200] (leg_detector_msgs) StdoutLine: {'line': b'[ 69%] Built target leg_detector_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.706284] (-) TimerEvent: {}
+[4.806557] (-) TimerEvent: {}
+[4.866326] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.882290] (leg_detector_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leg_detector_msgs/msg/human__type_support.cpp.o\x1b[0m\n'}
+[4.882489] (leg_detector_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leg_detector_msgs/msg/human_array__type_support.cpp.o\x1b[0m\n'}
+[4.882647] (leg_detector_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leg_detector_msgs/msg/leg__type_support.cpp.o\x1b[0m\n'}
+[4.882801] (leg_detector_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/leg_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leg_detector_msgs/msg/leg_array__type_support.cpp.o\x1b[0m\n'}
+[4.906655] (-) TimerEvent: {}
+[4.920786] (leg_detector_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libleg_detector_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.966249] (leg_detector_msgs) StdoutLine: {'line': b'[ 78%] Built target leg_detector_msgs__rosidl_typesupport_c\n'}
+[4.992987] (leg_detector_msgs) StdoutLine: {'line': b'[ 78%] Built target leg_detector_msgs\n'}
+[5.006787] (-) TimerEvent: {}
+[5.021225] (leg_detector_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.106908] (-) TimerEvent: {}
+[5.207194] (-) TimerEvent: {}
+[5.307477] (-) TimerEvent: {}
+[5.407753] (-) TimerEvent: {}
+[5.508029] (-) TimerEvent: {}
+[5.608306] (-) TimerEvent: {}
+[5.708591] (-) TimerEvent: {}
+[5.776930] (leg_detector_msgs) StdoutLine: {'line': b'[ 80%] Built target leg_detector_msgs__py\n'}
+[5.790066] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_generator_py\x1b[0m\n'}
+[5.808680] (-) TimerEvent: {}
+[5.811010] (leg_detector_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/leg_detector_msgs/msg/_human_s.c.o\x1b[0m\n'}
+[5.811246] (leg_detector_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/leg_detector_msgs/msg/_human_array_s.c.o\x1b[0m\n'}
+[5.811357] (leg_detector_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/leg_detector_msgs/msg/_leg_s.c.o\x1b[0m\n'}
+[5.812269] (leg_detector_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/leg_detector_msgs/msg/_leg_array_s.c.o\x1b[0m\n'}
+[5.908776] (-) TimerEvent: {}
+[5.939795] (leg_detector_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leg_detector_msgs/libleg_detector_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.987409] (leg_detector_msgs) StdoutLine: {'line': b'[ 89%] Built target leg_detector_msgs__rosidl_generator_py\n'}
+[6.000822] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.001067] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.001200] (leg_detector_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leg_detector_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.008876] (-) TimerEvent: {}
+[6.019468] (leg_detector_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.019662] (leg_detector_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.019776] (leg_detector_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.109002] (-) TimerEvent: {}
+[6.167148] (leg_detector_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.167334] (leg_detector_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.167452] (leg_detector_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.209116] (-) TimerEvent: {}
+[6.215136] (leg_detector_msgs) StdoutLine: {'line': b'[100%] Built target leg_detector_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.215296] (leg_detector_msgs) StdoutLine: {'line': b'[100%] Built target leg_detector_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.215787] (leg_detector_msgs) StdoutLine: {'line': b'[100%] Built target leg_detector_msgs__rosidl_typesupport_c__pyext\n'}
+[6.228789] (leg_detector_msgs) CommandEnded: {'returncode': 0}
+[6.309239] (-) TimerEvent: {}
+[6.388703] (leg_detector_msgs) JobProgress: {'identifier': 'leg_detector_msgs', 'progress': 'install'}
+[6.401029] (leg_detector_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/leg_detector_msgs'], 'cwd': '/home/alex/ros2_ws/build/leg_detector_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af6f3c31_6df7_40f3_a56f_366cb419eb2d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/leg_detector_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.409359] (-) TimerEvent: {}
+[6.411566] (leg_detector_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.411810] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/rosidl_interfaces/leg_detector_msgs\n'}
+[6.412039] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs\n'}
+[6.412375] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg\n'}
+[6.412506] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human_array.h\n'}
+[6.412610] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human.h\n'}
+[6.412708] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail\n'}
+[6.412847] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__functions.h\n'}
+[6.412933] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__functions.h\n'}
+[6.413017] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__struct.h\n'}
+[6.413142] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__functions.c\n'}
+[6.413256] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__functions.c\n'}
+[6.413338] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__functions.c\n'}
+[6.413448] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__struct.h\n'}
+[6.413569] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__functions.c\n'}
+[6.413724] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__functions.h\n'}
+[6.413951] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__struct.h\n'}
+[6.414097] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__functions.h\n'}
+[6.414259] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__type_support.h\n'}
+[6.414428] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__type_support.h\n'}
+[6.414645] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__type_support.h\n'}
+[6.414855] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__struct.h\n'}
+[6.415017] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__type_support.h\n'}
+[6.415145] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg_array.h\n'}
+[6.415326] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.415421] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg.h\n'}
+[6.415525] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/library_path.sh\n'}
+[6.415632] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/library_path.dsv\n'}
+[6.416021] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_generator_c.so\n'}
+[6.416764] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_generator_c.so" to ""\n'}
+[6.417010] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs\n'}
+[6.417177] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg\n'}
+[6.417279] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail\n'}
+[6.417407] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_fastrtps_c.h\n'}
+[6.417532] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.417621] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.417736] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.417820] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.417965] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.418589] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.418744] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs\n'}
+[6.418881] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg\n'}
+[6.418962] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg.hpp\n'}
+[6.419098] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail\n'}
+[6.419203] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__struct.hpp\n'}
+[6.419287] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__builder.hpp\n'}
+[6.419390] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__builder.hpp\n'}
+[6.419541] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__builder.hpp\n'}
+[6.419767] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__struct.hpp\n'}
+[6.419968] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__traits.hpp\n'}
+[6.420136] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__struct.hpp\n'}
+[6.420342] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__builder.hpp\n'}
+[6.420467] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__traits.hpp\n'}
+[6.420943] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__traits.hpp\n'}
+[6.421124] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__traits.hpp\n'}
+[6.421300] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__struct.hpp\n'}
+[6.421462] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human.hpp\n'}
+[6.421612] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg_array.hpp\n'}
+[6.421780] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human_array.hpp\n'}
+[6.421997] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs\n'}
+[6.422127] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg\n'}
+[6.422213] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail\n'}
+[6.422296] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.422405] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.422505] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/dds_fastrtps\n'}
+[6.422616] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.422724] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.422901] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.423211] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.423921] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.424075] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs\n'}
+[6.424187] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg\n'}
+[6.424271] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail\n'}
+[6.424351] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__type_support.c\n'}
+[6.424464] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_introspection_c.h\n'}
+[6.424573] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__type_support.c\n'}
+[6.424826] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_introspection_c.h\n'}
+[6.425094] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_introspection_c.h\n'}
+[6.425239] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__type_support.c\n'}
+[6.425387] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_introspection_c.h\n'}
+[6.425505] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__type_support.c\n'}
+[6.425666] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.425924] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.426515] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.426780] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_c.so\n'}
+[6.427295] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.427430] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs\n'}
+[6.427540] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg\n'}
+[6.427620] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail\n'}
+[6.427703] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.427856] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__type_support.cpp\n'}
+[6.427997] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.428104] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.428209] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.428391] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__type_support.cpp\n'}
+[6.428582] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__type_support.cpp\n'}
+[6.428859] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__type_support.cpp\n'}
+[6.429320] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.430026] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.430270] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_cpp.so\n'}
+[6.430829] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.430980] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/pythonpath.sh\n'}
+[6.431064] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/pythonpath.dsv\n'}
+[6.431246] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info\n'}
+[6.431384] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.431520] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.431611] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.431718] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.431880] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs\n'}
+[6.431986] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.432148] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg\n'}
+[6.432285] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_array.py\n'}
+[6.432440] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_array_s.c\n'}
+[6.432561] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/__init__.py\n'}
+[6.432899] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_s.c\n'}
+[6.433070] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_s.c\n'}
+[6.433266] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_array_s.c\n'}
+[6.433445] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human.py\n'}
+[6.433630] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg.py\n'}
+[6.433810] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_array.py\n'}
+[6.433945] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.434154] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/__init__.py\n'}
+[6.434346] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/libleg_detector_msgs__rosidl_generator_py.so\n'}
+[6.434558] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.434764] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.434960] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.435199] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.483222] (leg_detector_msgs) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs'...\n"}
+[6.483409] (leg_detector_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/__init__.py'...\n"}
+[6.483505] (leg_detector_msgs) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg'...\n"}
+[6.483592] (leg_detector_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/__init__.py'...\n"}
+[6.483676] (leg_detector_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human.py'...\n"}
+[6.483758] (leg_detector_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_array.py'...\n"}
+[6.483839] (leg_detector_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg.py'...\n"}
+[6.483936] (leg_detector_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_array.py'...\n"}
+[6.489209] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.489776] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.490081] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.490633] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.490914] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.491420] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.491695] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_generator_py.so\n'}
+[6.492311] (leg_detector_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_generator_py.so" to ""\n'}
+[6.492449] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Human.idl\n'}
+[6.492534] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/HumanArray.idl\n'}
+[6.492748] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Leg.idl\n'}
+[6.492887] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/LegArray.idl\n'}
+[6.493067] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Human.msg\n'}
+[6.493207] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/HumanArray.msg\n'}
+[6.493295] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Leg.msg\n'}
+[6.493378] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/LegArray.msg\n'}
+[6.493509] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/package_run_dependencies/leg_detector_msgs\n'}
+[6.493594] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/parent_prefix_path/leg_detector_msgs\n'}
+[6.493711] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/ament_prefix_path.sh\n'}
+[6.493822] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/ament_prefix_path.dsv\n'}
+[6.493905] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/path.sh\n'}
+[6.494029] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/path.dsv\n'}
+[6.494161] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.bash\n'}
+[6.494242] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.sh\n'}
+[6.494347] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.zsh\n'}
+[6.494431] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.dsv\n'}
+[6.494512] (leg_detector_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.dsv\n'}
+[6.494618] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/packages/leg_detector_msgs\n'}
+[6.494709] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_cExport.cmake\n'}
+[6.494823] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.494957] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.495066] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.495170] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.495278] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.495411] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.495515] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.495623] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.495731] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.495837] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.495960] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.496068] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.496186] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.496335] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.496463] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.496612] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.496724] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.496804] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.496884] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.496982] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.497084] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.497167] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.497248] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.497328] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgsConfig.cmake\n'}
+[6.497408] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgsConfig-version.cmake\n'}
+[6.497488] (leg_detector_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.xml\n'}
+[6.499270] (leg_detector_msgs) CommandEnded: {'returncode': 0}
+[6.509543] (-) TimerEvent: {}
+[6.610250] (-) TimerEvent: {}
+[6.710543] (-) TimerEvent: {}
+[6.810910] (-) TimerEvent: {}
+[6.874758] (leg_detector_msgs) JobEnded: {'identifier': 'leg_detector_msgs', 'rc': 0}
+[6.875552] (-) EventReactorShutdown: {}

@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found people_msgs: 0.0.0 (/home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/alex/ros2_ws/src/nav2_social_costmap_plugin/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alex/ros2_ws/build/nav2_social_costmap_plugin
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_social_costmap_plugin_core.dir/src/social_layer.cpp.o[0m
+[01m[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_social_costmap_plugin::SocialLayer::updateBounds(double, double, double, double*, double*, double*, double*)[m[K’:
+[01m[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 |   void SocialLayer::updateBounds([01;35m[Kdouble robot_x[m[K, double robot_y, double robot_yaw, double *min_x,
+      |                                  [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 |   void SocialLayer::updateBounds(double robot_x, [01;35m[Kdouble robot_y[m[K, double robot_yaw, double *min_x,
+      |                                                  [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 | lLayer::updateBounds(double robot_x, double robot_y, [01;35m[Kdouble robot_yaw[m[K, double *min_x,
+      |                                                      [01;35m[K~~~~~~~^~~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX shared library libnav2_social_costmap_plugin_core.so[0m
+[100%] Built target nav2_social_costmap_plugin_core
+-- Install configuration: ""
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/libnav2_social_costmap_plugin_core.so
+-- Set runtime path of "/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/libnav2_social_costmap_plugin_core.so" to ""
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/social_layer.xml
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_social_costmap_plugin
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_social_costmap_plugin
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/ament_prefix_path.sh
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/ament_prefix_path.dsv
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/path.sh
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/path.dsv
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.bash
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.sh
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.zsh
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.dsv
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.dsv
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/packages/nav2_social_costmap_plugin
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_social_costmap_plugin
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/cmake/nav2_social_costmap_pluginConfig.cmake
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/cmake/nav2_social_costmap_pluginConfig-version.cmake
+-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.xml

@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/people__type_support.c.o"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/people__type_support.c.o.d"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/person__type_support.c.o"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/person__type_support.c.o.d"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/person_stamped__type_support.c.o"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/person_stamped__type_support.c.o.d"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement__type_support.c.o"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement__type_support.c.o.d"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement_array__type_support.c.o"
+  "CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement_array__type_support.c.o.d"
+  "libpeople_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libpeople_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/people__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/people__type_support.c"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/person__type_support.c"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/person_stamped__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/person_stamped__type_support.c"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement__type_support.c"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement_array__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000639] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.000799] (-) JobUnselected: {'identifier': 'get_state_human'}
+[0.000891] (-) JobUnselected: {'identifier': 'leg_detector_msgs'}
+[0.000923] (-) JobUnselected: {'identifier': 'nav2_social_costmap_plugin'}
+[0.000964] (-) JobUnselected: {'identifier': 'people_msgs'}
+[0.000988] (-) JobUnselected: {'identifier': 'people_pub'}
+[0.001013] (leg_detector) JobQueued: {'identifier': 'leg_detector', 'dependencies': OrderedDict([('leg_detector_msgs', '/home/alex/ros2_ws/install/leg_detector_msgs')])}
+[0.001100] (leg_detector) JobStarted: {'identifier': 'leg_detector'}
+[0.067990] (leg_detector) JobProgress: {'identifier': 'leg_detector', 'progress': 'cmake'}
+[0.068383] (leg_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ros2_ws/src/leg_detector', '-DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/leg_detector'], 'cwd': '/home/alex/ros2_ws/build/leg_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af6f3c31_6df7_40f3_a56f_366cb419eb2d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/leg_detector_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/leg_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/leg_detector_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099388] (-) TimerEvent: {}
+[0.128935] (leg_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199518] (-) TimerEvent: {}
+[0.203746] (leg_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.211307] (leg_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.295629] (leg_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299623] (-) TimerEvent: {}
+[0.306079] (leg_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.306433] (leg_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.306964] (leg_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.311005] (leg_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399760] (-) TimerEvent: {}
+[0.416444] (leg_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.424702] (leg_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.425081] (leg_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.425625] (leg_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.428737] (leg_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499882] (-) TimerEvent: {}
+[0.600157] (-) TimerEvent: {}
+[0.647086] (leg_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700248] (-) TimerEvent: {}
+[0.767113] (leg_detector) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.771471] (leg_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.781500] (leg_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.800349] (-) TimerEvent: {}
+[0.842877] (leg_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.897269] (leg_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.900456] (-) TimerEvent: {}
+[1.000716] (-) TimerEvent: {}
+[1.022673] (leg_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.026613] (leg_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.100847] (-) TimerEvent: {}
+[1.166092] (leg_detector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.200977] (-) TimerEvent: {}
+[1.204018] (leg_detector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.273764] (leg_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.288104] (leg_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301077] (-) TimerEvent: {}
+[1.388184] (leg_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.388522] (leg_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401204] (-) TimerEvent: {}
+[1.492699] (leg_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.494239] (leg_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501307] (-) TimerEvent: {}
+[1.601570] (-) TimerEvent: {}
+[1.701860] (-) TimerEvent: {}
+[1.754628] (leg_detector) StdoutLine: {'line': b'-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.755305] (leg_detector) StdoutLine: {'line': b'-- Found leg_detector_msgs: 0.0.0 (/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake)\n'}
+[1.801970] (-) TimerEvent: {}
+[1.902238] (-) TimerEvent: {}
+[1.959885] (leg_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.5.4") \n'}
+[1.962218] (leg_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.002340] (-) TimerEvent: {}
+[2.101202] (leg_detector) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.102451] (-) TimerEvent: {}
+[2.122853] (leg_detector) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.144622] (leg_detector) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.146369] (leg_detector) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.146625] (leg_detector) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.202566] (-) TimerEvent: {}
+[2.302836] (-) TimerEvent: {}
+[2.403130] (-) TimerEvent: {}
+[2.503426] (-) TimerEvent: {}
+[2.603721] (-) TimerEvent: {}
+[2.698677] (leg_detector) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.703824] (-) TimerEvent: {}
+[2.804093] (-) TimerEvent: {}
+[2.892603] (leg_detector) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.904165] (-) TimerEvent: {}
+[3.004419] (-) TimerEvent: {}
+[3.037554] (leg_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.104540] (-) TimerEvent: {}
+[3.151284] (leg_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.155883] (leg_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.156391] (leg_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/alex/ros2_ws/src/leg_detector/include\n'}
+[3.156530] (leg_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.160664] (leg_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.160804] (leg_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.161711] (leg_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.163189] (leg_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.164223] (leg_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.168403] (leg_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.168540] (leg_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.169454] (leg_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.171032] (leg_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.204662] (-) TimerEvent: {}
+[3.211622] (leg_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[3.214180] (leg_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/leg_detector\n'}
+[3.228091] (leg_detector) CommandEnded: {'returncode': 0}
+[3.228874] (leg_detector) JobProgress: {'identifier': 'leg_detector', 'progress': 'build'}
+[3.230469] (leg_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/leg_detector', '--', '-j4', '-l4'], 'cwd': '/home/alex/ros2_ws/build/leg_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af6f3c31_6df7_40f3_a56f_366cb419eb2d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/leg_detector_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/leg_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/leg_detector_msgs:/opt/ros/humble')]), 'shell': False}
+[3.299596] (leg_detector) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/detect_leg_clusters.dir/src/laser_processor.cpp.o\x1b[0m\n'}
+[3.299761] (leg_detector) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/local_occupancy_grid_mapping.dir/src/laser_processor.cpp.o\x1b[0m\n'}
+[3.299883] (leg_detector) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/inflated_human_scan.dir/src/inflated_human_scan.cpp.o\x1b[0m\n'}
+[3.300017] (leg_detector) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/detect_leg_clusters.dir/src/detect_leg_clusters.cpp.o\x1b[0m\n'}
+[3.304755] (-) TimerEvent: {}
+[3.405093] (-) TimerEvent: {}
+[3.505417] (-) TimerEvent: {}
+[3.605742] (-) TimerEvent: {}
+[3.706070] (-) TimerEvent: {}
+[3.806410] (-) TimerEvent: {}
+[3.906774] (-) TimerEvent: {}
+[4.007127] (-) TimerEvent: {}
+[4.107491] (-) TimerEvent: {}
+[4.207845] (-) TimerEvent: {}
+[4.308125] (-) TimerEvent: {}
+[4.408405] (-) TimerEvent: {}
+[4.508684] (-) TimerEvent: {}
+[4.608973] (-) TimerEvent: {}
+[4.709259] (-) TimerEvent: {}
+[4.816739] (-) TimerEvent: {}
+[4.917025] (-) TimerEvent: {}
+[5.017317] (-) TimerEvent: {}
+[5.117606] (-) TimerEvent: {}
+[5.217892] (-) TimerEvent: {}
+[5.318176] (-) TimerEvent: {}
+[5.418464] (-) TimerEvent: {}
+[5.518748] (-) TimerEvent: {}
+[5.619028] (-) TimerEvent: {}
+[5.719310] (-) TimerEvent: {}
+[5.819596] (-) TimerEvent: {}
+[5.919883] (-) TimerEvent: {}
+[6.020169] (-) TimerEvent: {}
+[6.120533] (-) TimerEvent: {}
+[6.220880] (-) TimerEvent: {}
+[6.321155] (-) TimerEvent: {}
+[6.421423] (-) TimerEvent: {}
+[6.521695] (-) TimerEvent: {}
+[6.621965] (-) TimerEvent: {}
+[6.699820] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:49:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPersonArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kleg_detector_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.700036] (leg_detector) StderrLine: {'line': b'   49 |     message_filters::Subscriber<leg_detector_msgs::msg::\x1b[01;31m\x1b[KPersonArray\x1b[m\x1b[K> people_tracked_sub_;\n'}
+[6.700147] (leg_detector) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.700222] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:49:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.700292] (leg_detector) StderrLine: {'line': b'   49 |     message_filters::Subscriber<leg_detector_msgs::msg::PersonArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K people_tracked_sub_;\n'}
+[6.700360] (leg_detector) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.700669] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:50:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPersonArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kleg_detector_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.700774] (leg_detector) StderrLine: {'line': b'   50 |     message_filters::TimeSynchronizer<sensor_msgs::msg::LaserScan, leg_detector_msgs::msg::\x1b[01;31m\x1b[KPersonArray\x1b[m\x1b[K> sync_;\n'}
+[6.700842] (leg_detector) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.700907] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:50:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[6.700974] (leg_detector) StderrLine: {'line': b'   50 |     message_filters::TimeSynchronizer<sensor_msgs::msg::LaserScan, leg_detector_msgs::msg::PersonArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K sync_;\n'}
+[6.701040] (leg_detector) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.704114] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPersonArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kleg_detector_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.704367] (leg_detector) StderrLine: {'line': b'   65 |                                  const leg_detector_msgs::msg::\x1b[01;31m\x1b[KPersonArray\x1b[m\x1b[K::ConstSharedPtr &people_tracked) {\n'}
+[6.704454] (leg_detector) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.704534] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.704604] (leg_detector) StderrLine: {'line': b'   65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr \x1b[01;31m\x1b[K&\x1b[m\x1b[Kpeople_tracked) {\n'}
+[6.704676] (leg_detector) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.704742] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.704808] (leg_detector) StderrLine: {'line': b'   65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[Kpeople_tracked) {\n'}
+[6.704874] (leg_detector) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[6.704939] (leg_detector) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[6.705004] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:64:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.705070] (leg_detector) StderrLine: {'line': b'   64 |     void inflated_human_callback\x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr &scan,\n'}
+[6.705135] (leg_detector) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.705200] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.705273] (leg_detector) StderrLine: {'line': b'   65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr \x1b[01;31m\x1b[K&\x1b[m\x1b[Kpeople_tracked) {\n'}
+[6.705339] (leg_detector) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.705403] (leg_detector) StderrLine: {'line': b'      |                                                                                             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.708112] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:65:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpeople_tracked\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.708286] (leg_detector) StderrLine: {'line': b'   65 |                                  const leg_detector_msgs::msg::PersonArray::ConstSharedPtr &\x1b[01;31m\x1b[Kpeople_tracked\x1b[m\x1b[K) {\n'}
+[6.708366] (leg_detector) StderrLine: {'line': b'      |                                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.708939] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KInflatedHumanScanNode::InflatedHumanScanNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.709143] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:22:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in mem-initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.709222] (leg_detector) StderrLine: {'line': b'   22 |           \x1b[01;31m\x1b[Kpeople_tracked_sub_(this, "people_tracked")\x1b[m\x1b[K,\n'}
+[6.709290] (leg_detector) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.709356] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:22:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.709426] (leg_detector) StderrLine: {'line': b'   22 |           people_tracked_sub_(\x1b[01;35m\x1b[Kthis\x1b[m\x1b[K, "people_tracked"),\n'}
+[6.709493] (leg_detector) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.709559] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:22:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.709628] (leg_detector) StderrLine: {'line': b'   22 |           \x1b[01;31m\x1b[Kpeople_tracked_sub_(this, "people_tracked")\x1b[m\x1b[K,\n'}
+[6.709694] (leg_detector) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.709760] (leg_detector) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.709824] (leg_detector) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[6.709898] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:23:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in mem-initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.710053] (leg_detector) StderrLine: {'line': b'   23 |           \x1b[01;31m\x1b[Ksync_(scan_sub_, people_tracked_sub_, 200)\x1b[m\x1b[K\n'}
+[6.710120] (leg_detector) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.710185] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:23:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.710254] (leg_detector) StderrLine: {'line': b'   23 |           sync_(\x1b[01;35m\x1b[Kscan_sub_\x1b[m\x1b[K, people_tracked_sub_, 200)\n'}
+[6.710319] (leg_detector) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.710384] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:23:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.710452] (leg_detector) StderrLine: {'line': b'   23 |           sync_(scan_sub_, \x1b[01;35m\x1b[Kpeople_tracked_sub_\x1b[m\x1b[K, 200)\n'}
+[6.710518] (leg_detector) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.710582] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:34:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ksubscribe\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((InflatedHumanScanNode*)this)->InflatedHumanScanNode::people_tracked_sub_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.710651] (leg_detector) StderrLine: {'line': b'   34 |         people_tracked_sub_.\x1b[01;31m\x1b[Ksubscribe\x1b[m\x1b[K(this, "people_tracked");\n'}
+[6.710716] (leg_detector) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.710780] (leg_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/leg_detector/src/inflated_human_scan.cpp:39:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KregisterCallback\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((InflatedHumanScanNode*)this)->InflatedHumanScanNode::sync_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.710847] (leg_detector) StderrLine: {'line': b'   39 |         sync_.\x1b[01;31m\x1b[KregisterCallback\x1b[m\x1b[K(std::bind(&InflatedHumanScanNode::inflated_human_callback, this, std::placeholders::_1,\n'}
+[6.710913] (leg_detector) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.722069] (-) TimerEvent: {}
+[6.822337] (-) TimerEvent: {}
+[6.922601] (-) TimerEvent: {}
+[7.018381] (leg_detector) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/local_occupancy_grid_mapping.dir/src/local_occupancy_grid_mapping.cpp.o\x1b[0m\n'}
+[7.022702] (-) TimerEvent: {}
+[7.076262] (leg_detector) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/detect_leg_clusters.dir/src/cluster_features.cpp.o\x1b[0m\n'}
+[7.122804] (-) TimerEvent: {}
+[7.223146] (-) TimerEvent: {}
+[7.323406] (-) TimerEvent: {}
+[7.423660] (-) TimerEvent: {}
+[7.523921] (-) TimerEvent: {}
+[7.624197] (-) TimerEvent: {}
+[7.724463] (-) TimerEvent: {}
+[7.824721] (-) TimerEvent: {}
+[7.924982] (-) TimerEvent: {}
+[8.025246] (-) TimerEvent: {}
+[8.125520] (-) TimerEvent: {}
+[8.225775] (-) TimerEvent: {}
+[8.326031] (-) TimerEvent: {}
+[8.426299] (-) TimerEvent: {}
+[8.526573] (-) TimerEvent: {}
+[8.626844] (-) TimerEvent: {}
+[8.727114] (-) TimerEvent: {}
+[8.827379] (-) TimerEvent: {}
+[8.927644] (-) TimerEvent: {}
+[9.027907] (-) TimerEvent: {}
+[9.128167] (-) TimerEvent: {}
+[9.228431] (-) TimerEvent: {}
+[9.328692] (-) TimerEvent: {}
+[9.428949] (-) TimerEvent: {}
+[9.529225] (-) TimerEvent: {}
+[9.629478] (-) TimerEvent: {}
+[9.729740] (-) TimerEvent: {}
+[9.824739] (leg_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/inflated_human_scan.dir/build.make:76: CMakeFiles/inflated_human_scan.dir/src/inflated_human_scan.cpp.o] Error 1\n'}
+[9.825281] (leg_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/inflated_human_scan.dir/all] Error 2\n'}
+[9.825398] (leg_detector) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.829865] (-) TimerEvent: {}
+[9.930258] (-) TimerEvent: {}
+[10.030624] (-) TimerEvent: {}
+[10.131015] (-) TimerEvent: {}
+[10.231385] (-) TimerEvent: {}
+[10.331770] (-) TimerEvent: {}
+[10.432142] (-) TimerEvent: {}
+[10.532507] (-) TimerEvent: {}
+[10.632864] (-) TimerEvent: {}
+[10.733231] (-) TimerEvent: {}
+[10.833606] (-) TimerEvent: {}
+[10.933980] (-) TimerEvent: {}
+[11.034347] (-) TimerEvent: {}
+[11.134623] (-) TimerEvent: {}
+[11.234931] (-) TimerEvent: {}
+[11.335236] (-) TimerEvent: {}
+[11.435543] (-) TimerEvent: {}
+[11.535851] (-) TimerEvent: {}
+[11.636178] (-) TimerEvent: {}
+[11.736480] (-) TimerEvent: {}
+[11.836784] (-) TimerEvent: {}
+[11.937084] (-) TimerEvent: {}
+[12.037423] (-) TimerEvent: {}
+[12.137730] (-) TimerEvent: {}
+[12.238115] (-) TimerEvent: {}
+[12.338385] (-) TimerEvent: {}
+[12.438651] (-) TimerEvent: {}
+[12.538938] (-) TimerEvent: {}
+[12.639230] (-) TimerEvent: {}
+[12.739528] (-) TimerEvent: {}
+[12.839824] (-) TimerEvent: {}
+[12.940157] (-) TimerEvent: {}
+[13.040454] (-) TimerEvent: {}
+[13.140802] (-) TimerEvent: {}
+[13.241107] (-) TimerEvent: {}
+[13.341403] (-) TimerEvent: {}
+[13.441698] (-) TimerEvent: {}
+[13.541994] (-) TimerEvent: {}
+[13.642295] (-) TimerEvent: {}
+[13.742597] (-) TimerEvent: {}
+[13.842896] (-) TimerEvent: {}
+[13.943202] (-) TimerEvent: {}
+[14.043502] (-) TimerEvent: {}
+[14.143771] (-) TimerEvent: {}
+[14.244044] (-) TimerEvent: {}
+[14.344346] (-) TimerEvent: {}
+[14.444623] (-) TimerEvent: {}
+[14.544896] (-) TimerEvent: {}
+[14.620003] (leg_detector) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable detect_leg_clusters\x1b[0m\n'}
+[14.645023] (-) TimerEvent: {}
+[14.745475] (-) TimerEvent: {}
+[14.845821] (-) TimerEvent: {}
+[14.946132] (-) TimerEvent: {}
+[15.046460] (-) TimerEvent: {}
+[15.146797] (-) TimerEvent: {}
+[15.247103] (-) TimerEvent: {}
+[15.347409] (-) TimerEvent: {}
+[15.358461] (leg_detector) StdoutLine: {'line': b'[ 77%] Built target detect_leg_clusters\n'}
+[15.447541] (-) TimerEvent: {}
+[15.547860] (-) TimerEvent: {}
+[15.648204] (-) TimerEvent: {}
+[15.748526] (-) TimerEvent: {}
+[15.848817] (-) TimerEvent: {}
+[15.949111] (-) TimerEvent: {}
+[16.049427] (-) TimerEvent: {}
+[16.149734] (-) TimerEvent: {}
+[16.250034] (-) TimerEvent: {}
+[16.350315] (-) TimerEvent: {}
+[16.450614] (-) TimerEvent: {}
+[16.550914] (-) TimerEvent: {}
+[16.651221] (-) TimerEvent: {}
+[16.751524] (-) TimerEvent: {}
+[16.851826] (-) TimerEvent: {}
+[16.952182] (-) TimerEvent: {}
+[17.052485] (-) TimerEvent: {}
+[17.152780] (-) TimerEvent: {}
+[17.253082] (-) TimerEvent: {}
+[17.353383] (-) TimerEvent: {}
+[17.453686] (-) TimerEvent: {}
+[17.553990] (-) TimerEvent: {}
+[17.654273] (-) TimerEvent: {}
+[17.754573] (-) TimerEvent: {}
+[17.854852] (-) TimerEvent: {}
+[17.955153] (-) TimerEvent: {}
+[18.055457] (-) TimerEvent: {}
+[18.155765] (-) TimerEvent: {}
+[18.256093] (-) TimerEvent: {}
+[18.356377] (-) TimerEvent: {}
+[18.456660] (-) TimerEvent: {}
+[18.556965] (-) TimerEvent: {}
+[18.657269] (-) TimerEvent: {}
+[18.757572] (-) TimerEvent: {}
+[18.857873] (-) TimerEvent: {}
+[18.958155] (-) TimerEvent: {}
+[19.058458] (-) TimerEvent: {}
+[19.158762] (-) TimerEvent: {}
+[19.259046] (-) TimerEvent: {}
+[19.359371] (-) TimerEvent: {}
+[19.459655] (-) TimerEvent: {}
+[19.559938] (-) TimerEvent: {}
+[19.660270] (-) TimerEvent: {}
+[19.760587] (-) TimerEvent: {}
+[19.860891] (-) TimerEvent: {}
+[19.961191] (-) TimerEvent: {}
+[20.061490] (-) TimerEvent: {}
+[20.161787] (-) TimerEvent: {}
+[20.262086] (-) TimerEvent: {}
+[20.362365] (-) TimerEvent: {}
+[20.462666] (-) TimerEvent: {}
+[20.562974] (-) TimerEvent: {}
+[20.663377] (-) TimerEvent: {}
+[20.763764] (-) TimerEvent: {}
+[20.864046] (-) TimerEvent: {}
+[20.964358] (-) TimerEvent: {}
+[21.064662] (-) TimerEvent: {}
+[21.164965] (-) TimerEvent: {}
+[21.265265] (-) TimerEvent: {}
+[21.365571] (-) TimerEvent: {}
+[21.465876] (-) TimerEvent: {}
+[21.566192] (-) TimerEvent: {}
+[21.666494] (-) TimerEvent: {}
+[21.766804] (-) TimerEvent: {}
+[21.867112] (-) TimerEvent: {}
+[21.934381] (leg_detector) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable local_occupancy_grid_mapping\x1b[0m\n'}
+[21.967245] (-) TimerEvent: {}
+[22.067567] (-) TimerEvent: {}
+[22.167899] (-) TimerEvent: {}
+[22.268205] (-) TimerEvent: {}
+[22.368521] (-) TimerEvent: {}
+[22.468870] (-) TimerEvent: {}
+[22.569204] (-) TimerEvent: {}
+[22.669504] (-) TimerEvent: {}
+[22.769806] (-) TimerEvent: {}
+[22.870122] (-) TimerEvent: {}
+[22.970433] (-) TimerEvent: {}
+[23.015699] (leg_detector) StdoutLine: {'line': b'[ 88%] Built target local_occupancy_grid_mapping\n'}
+[23.017270] (leg_detector) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.019694] (leg_detector) CommandEnded: {'returncode': 2}
+[23.071306] (-) TimerEvent: {}
+[23.142089] (leg_detector) JobEnded: {'identifier': 'leg_detector', 'rc': 2}
+[23.152793] (-) EventReactorShutdown: {}

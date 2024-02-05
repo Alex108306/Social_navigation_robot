@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human__type_support.c.o"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human__type_support.c.o.d"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human_array__type_support.c.o"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human_array__type_support.c.o.d"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg__type_support.c.o"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg__type_support.c.o.d"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg_array__type_support.c.o"
+  "CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg_array__type_support.c.o.d"
+  "libleg_detector_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libleg_detector_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human__type_support.c"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/human_array__type_support.c"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg__type_support.c"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/leg_detector_msgs/msg/detail/leg_array__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/leg_detector_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

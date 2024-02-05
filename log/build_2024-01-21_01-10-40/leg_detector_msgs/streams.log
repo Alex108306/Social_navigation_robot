@@ -1,0 +1,62 @@
+[0.078s] Invoking command in '/home/alex/ros2_ws/build/leg_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake /home/alex/ros2_ws/src/leg_detector_msgs -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/leg_detector_msgs
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.209s] -- Detecting C compiler ABI info
+[0.296s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.433s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.642s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.747s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.805s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.814s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.829s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.974s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.043s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.299s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.299s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.299s]   leg_detector_msgs --arguments-file
+[1.299s]   /home/alex/ros2_ws/build/leg_detector_msgs/rosidl_adapter__arguments__leg_detector_msgs.json
+[1.299s]   --output-dir
+[1.299s]   /home/alex/ros2_ws/build/leg_detector_msgs/rosidl_adapter/leg_detector_msgs
+[1.300s]   --output-file
+[1.300s]   /home/alex/ros2_ws/build/leg_detector_msgs/rosidl_adapter/leg_detector_msgs.idls)
+[1.300s]   returned error code 1:
+[1.300s] 
+[1.300s]   Error with: leg_detector_msgs Leg geometry_msgs/Point
+[1.300s] 
+[1.300s]   Traceback (most recent call last):
+[1.300s] 
+[1.300s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.300s]       return _run_code(code, main_globals, None,
+[1.300s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.301s]       exec(code, run_globals)
+[1.301s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.301s]       sys.exit(main())
+[1.301s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.301s]       abs_idl_file = convert_to_idl(
+[1.301s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.301s]       return convert_msg_to_idl(
+[1.301s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.301s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.301s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 510, in parse_message_string
+[1.301s]       raise InvalidFieldDefinition(line)
+[1.301s] 
+[1.302s]   rosidl_adapter.parser.InvalidFieldDefinition: geometry_msgs/Point
+[1.302s] 
+[1.302s] Call Stack (most recent call first):
+[1.302s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.302s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.302s] 
+[1.302s] [0m
+[1.302s] -- Configuring incomplete, errors occurred!
+[1.302s] See also "/home/alex/ros2_ws/build/leg_detector_msgs/CMakeFiles/CMakeOutput.log".
+[1.308s] Invoked command in '/home/alex/ros2_ws/build/leg_detector_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake /home/alex/ros2_ws/src/leg_detector_msgs -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/leg_detector_msgs

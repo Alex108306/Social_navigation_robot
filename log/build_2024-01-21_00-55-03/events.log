@@ -1,0 +1,896 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000185] (get_state_human) JobQueued: {'identifier': 'get_state_human', 'dependencies': OrderedDict()}
+[0.000215] (people_msgs) JobQueued: {'identifier': 'people_msgs', 'dependencies': OrderedDict()}
+[0.000240] (nav2_social_costmap_plugin) JobQueued: {'identifier': 'nav2_social_costmap_plugin', 'dependencies': OrderedDict([('people_msgs', '/home/alex/ros2_ws/install/people_msgs')])}
+[0.000285] (people_pub) JobQueued: {'identifier': 'people_pub', 'dependencies': OrderedDict([('people_msgs', '/home/alex/ros2_ws/install/people_msgs')])}
+[0.000537] (people_msgs) JobStarted: {'identifier': 'people_msgs'}
+[0.083847] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.099138] (-) TimerEvent: {}
+[0.151740] (get_state_human) JobStarted: {'identifier': 'get_state_human'}
+[0.199820] (-) TimerEvent: {}
+[0.244928] (people_msgs) JobProgress: {'identifier': 'people_msgs', 'progress': 'cmake'}
+[0.245515] (people_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ros2_ws/src/People_msgs', '-DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/people_msgs'], 'cwd': '/home/alex/ros2_ws/build/people_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/people_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.248615] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.248948] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ros2_ws/src/articubot_one', '-DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/articubot_one'], 'cwd': '/home/alex/ros2_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299912] (-) TimerEvent: {}
+[0.314890] (people_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.316143] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.381111] (people_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.386745] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.389614] (people_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.394893] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400025] (-) TimerEvent: {}
+[0.472244] (people_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.480627] (people_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.480895] (people_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.481692] (people_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.484617] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.485071] (people_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.493303] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.493538] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.494028] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.497519] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500140] (-) TimerEvent: {}
+[0.585494] (people_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.591151] (people_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.591688] (people_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.591859] (people_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.593397] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.594923] (people_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600291] (-) TimerEvent: {}
+[0.602299] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.602579] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.603047] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.606328] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700416] (-) TimerEvent: {}
+[0.799957] (people_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800485] (-) TimerEvent: {}
+[0.814025] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.900595] (-) TimerEvent: {}
+[0.925511] (people_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.937795] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.977861] (people_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.985750] (people_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.998576] (people_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.000708] (-) TimerEvent: {}
+[1.017660] (people_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.041886] (people_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.046770] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.059201] (articubot_one) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.059384] (articubot_one) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.059463] (articubot_one) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.071430] (articubot_one) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.071589] (articubot_one) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.073483] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.076860] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.078826] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.091336] (articubot_one) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.091508] (articubot_one) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.093853] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.095225] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.099082] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[1.100042] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/articubot_one\n'}
+[1.100812] (-) TimerEvent: {}
+[1.106683] (articubot_one) CommandEnded: {'returncode': 0}
+[1.107076] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[1.107112] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/alex/ros2_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.114497] (people_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.122518] (get_state_human) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/get_state_human', 'build', '--build-base', '/home/alex/ros2_ws/build/get_state_human/build', 'install', '--record', '/home/alex/ros2_ws/build/get_state_human/install.log', '--single-version-externally-managed'], 'cwd': '/home/alex/ros2_ws/src/get_state_human', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alex', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alex', 'OLDPWD': '/home/alex', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'vi_VN', 'SYSTEMD_EXEC_PID': '1805', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alex', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'vi_VN', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'vi_VN', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1907', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'vi_VN', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alex/ros2_ws/build/get_state_human', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alex/ros2_ws/build/get_state_human/prefix_override:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.152210] (articubot_one) CommandEnded: {'returncode': 0}
+[1.172505] (people_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.177533] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[1.188214] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/articubot_one'], 'cwd': '/home/alex/ros2_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.196833] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.197086] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config\n'}
+[1.197174] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[1.197401] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/mapping.rviz\n'}
+[1.197519] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/social.rviz\n'}
+[1.197714] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[1.197861] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[1.197972] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[1.198092] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[1.198284] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[1.198420] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[1.198528] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[1.198719] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description\n'}
+[1.198864] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[1.198972] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[1.199074] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[1.199173] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[1.199276] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[1.199463] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[1.199598] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[1.199706] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[1.199808] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/launch\n'}
+[1.199908] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[1.200025] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[1.200148] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[1.200352] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[1.200480] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[1.200611] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/worlds\n'}
+[1.200708] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/worlds/social.world\n'}
+[1.200879] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/worlds/social_inter.world\n'}
+[1.200952] (-) TimerEvent: {}
+[1.201094] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[1.201221] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[1.201339] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/src\n'}
+[1.201456] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/src/get_state.cpp\n'}
+[1.201662] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[1.201922] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[1.202150] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[1.202300] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[1.202495] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[1.202625] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[1.202756] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[1.202899] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[1.203054] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[1.203197] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[1.203338] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[1.203531] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[1.203709] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[1.203833] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[1.203978] (articubot_one) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[1.205955] (articubot_one) CommandEnded: {'returncode': 0}
+[1.301061] (-) TimerEvent: {}
+[1.370451] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[1.401179] (-) TimerEvent: {}
+[1.430190] (get_state_human) StdoutLine: {'line': b'running egg_info\n'}
+[1.431068] (get_state_human) StdoutLine: {'line': b'creating ../../build/get_state_human/get_state_human.egg-info\n'}
+[1.431359] (get_state_human) StdoutLine: {'line': b'writing ../../build/get_state_human/get_state_human.egg-info/PKG-INFO\n'}
+[1.431561] (get_state_human) StdoutLine: {'line': b'writing dependency_links to ../../build/get_state_human/get_state_human.egg-info/dependency_links.txt\n'}
+[1.431703] (get_state_human) StdoutLine: {'line': b'writing entry points to ../../build/get_state_human/get_state_human.egg-info/entry_points.txt\n'}
+[1.431829] (get_state_human) StdoutLine: {'line': b'writing requirements to ../../build/get_state_human/get_state_human.egg-info/requires.txt\n'}
+[1.431959] (get_state_human) StdoutLine: {'line': b'writing top-level names to ../../build/get_state_human/get_state_human.egg-info/top_level.txt\n'}
+[1.432286] (get_state_human) StdoutLine: {'line': b"writing manifest file '../../build/get_state_human/get_state_human.egg-info/SOURCES.txt'\n"}
+[1.434944] (get_state_human) StdoutLine: {'line': b"reading manifest file '../../build/get_state_human/get_state_human.egg-info/SOURCES.txt'\n"}
+[1.435166] (get_state_human) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.436247] (get_state_human) StdoutLine: {'line': b"writing manifest file '../../build/get_state_human/get_state_human.egg-info/SOURCES.txt'\n"}
+[1.436474] (get_state_human) StdoutLine: {'line': b'running build\n'}
+[1.436613] (get_state_human) StdoutLine: {'line': b'running build_py\n'}
+[1.436724] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/get_state_human/build\n'}
+[1.436916] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/get_state_human/build/lib\n'}
+[1.437087] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/get_state_human/build/lib/get_state_human\n'}
+[1.437183] (get_state_human) StdoutLine: {'line': b'copying get_state_human/get_state.py -> /home/alex/ros2_ws/build/get_state_human/build/lib/get_state_human\n'}
+[1.437297] (get_state_human) StdoutLine: {'line': b'copying get_state_human/__init__.py -> /home/alex/ros2_ws/build/get_state_human/build/lib/get_state_human\n'}
+[1.437442] (get_state_human) StdoutLine: {'line': b'running install\n'}
+[1.437533] (get_state_human) StdoutLine: {'line': b'running install_lib\n'}
+[1.438310] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human\n'}
+[1.438523] (get_state_human) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/get_state_human/build/lib/get_state_human/get_state.py -> /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human\n'}
+[1.438629] (get_state_human) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/get_state_human/build/lib/get_state_human/__init__.py -> /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human\n'}
+[1.439194] (get_state_human) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human/get_state.py to get_state.cpython-310.pyc\n'}
+[1.439767] (get_state_human) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human/__init__.py to __init__.cpython-310.pyc\n'}
+[1.439964] (get_state_human) StdoutLine: {'line': b'running install_data\n'}
+[1.440657] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/get_state_human/share/ament_index\n'}
+[1.440863] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/get_state_human/share/ament_index/resource_index\n'}
+[1.441044] (get_state_human) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/get_state_human/share/ament_index/resource_index/packages\n'}
+[1.441139] (get_state_human) StdoutLine: {'line': b'copying resource/get_state_human -> /home/alex/ros2_ws/install/get_state_human/share/ament_index/resource_index/packages\n'}
+[1.441225] (get_state_human) StdoutLine: {'line': b'copying package.xml -> /home/alex/ros2_ws/install/get_state_human/share/get_state_human\n'}
+[1.441351] (get_state_human) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.443677] (get_state_human) StdoutLine: {'line': b'Copying ../../build/get_state_human/get_state_human.egg-info to /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human-0.0.0-py3.10.egg-info\n'}
+[1.444527] (get_state_human) StdoutLine: {'line': b'running install_scripts\n'}
+[1.470872] (get_state_human) StdoutLine: {'line': b'Installing social script to /home/alex/ros2_ws/install/get_state_human/lib/get_state_human\n'}
+[1.471329] (get_state_human) StdoutLine: {'line': b"writing list of installed files to '/home/alex/ros2_ws/build/get_state_human/install.log'\n"}
+[1.501734] (get_state_human) CommandEnded: {'returncode': 0}
+[1.502200] (-) TimerEvent: {}
+[1.565489] (people_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.574323] (get_state_human) JobEnded: {'identifier': 'get_state_human', 'rc': 0}
+[1.602358] (-) TimerEvent: {}
+[1.702813] (-) TimerEvent: {}
+[1.803133] (-) TimerEvent: {}
+[1.903434] (-) TimerEvent: {}
+[2.003719] (-) TimerEvent: {}
+[2.103996] (-) TimerEvent: {}
+[2.111634] (people_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.204114] (-) TimerEvent: {}
+[2.303310] (people_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.304214] (-) TimerEvent: {}
+[2.327000] (people_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.328757] (people_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.356381] (people_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.356647] (people_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.356724] (people_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.356792] (people_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.378560] (people_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.404338] (-) TimerEvent: {}
+[2.451696] (people_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.504467] (-) TimerEvent: {}
+[2.507791] (people_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.511389] (people_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/people_msgs\n'}
+[2.519178] (people_msgs) CommandEnded: {'returncode': 0}
+[2.519935] (people_msgs) JobProgress: {'identifier': 'people_msgs', 'progress': 'build'}
+[2.521443] (people_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/people_msgs', '--', '-j4', '-l4'], 'cwd': '/home/alex/ros2_ws/build/people_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/people_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.576735] (people_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.591145] (people_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.602715] (people_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_people_msgs\n'}
+[2.604583] (-) TimerEvent: {}
+[2.704938] (-) TimerEvent: {}
+[2.805327] (-) TimerEvent: {}
+[2.905719] (-) TimerEvent: {}
+[2.959982] (people_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.960802] (people_msgs) StdoutLine: {'line': b'creating people_msgs.egg-info\n'}
+[2.960978] (people_msgs) StdoutLine: {'line': b'writing people_msgs.egg-info/PKG-INFO\n'}
+[2.961174] (people_msgs) StdoutLine: {'line': b'writing dependency_links to people_msgs.egg-info/dependency_links.txt\n'}
+[2.961425] (people_msgs) StdoutLine: {'line': b'writing top-level names to people_msgs.egg-info/top_level.txt\n'}
+[2.961633] (people_msgs) StdoutLine: {'line': b"writing manifest file 'people_msgs.egg-info/SOURCES.txt'\n"}
+[2.964084] (people_msgs) StdoutLine: {'line': b"reading manifest file 'people_msgs.egg-info/SOURCES.txt'\n"}
+[2.964739] (people_msgs) StdoutLine: {'line': b"writing manifest file 'people_msgs.egg-info/SOURCES.txt'\n"}
+[2.999101] (people_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_people_msgs_egg\n'}
+[3.005837] (-) TimerEvent: {}
+[3.106223] (-) TimerEvent: {}
+[3.206500] (-) TimerEvent: {}
+[3.306883] (-) TimerEvent: {}
+[3.334325] (people_msgs) StdoutLine: {'line': b'[  3%] Built target people_msgs__cpp\n'}
+[3.346511] (people_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.346743] (people_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.346834] (people_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.347120] (people_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_c.dir/rosidl_generator_c/people_msgs/msg/detail/people__functions.c.o\x1b[0m\n'}
+[3.405962] (people_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_c.dir/rosidl_generator_c/people_msgs/msg/detail/person__functions.c.o\x1b[0m\n'}
+[3.406954] (-) TimerEvent: {}
+[3.464592] (people_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_c.dir/rosidl_generator_c/people_msgs/msg/detail/person_stamped__functions.c.o\x1b[0m\n'}
+[3.507053] (-) TimerEvent: {}
+[3.522124] (people_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_c.dir/rosidl_generator_c/people_msgs/msg/detail/position_measurement__functions.c.o\x1b[0m\n'}
+[3.582045] (people_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_c.dir/rosidl_generator_c/people_msgs/msg/detail/position_measurement_array__functions.c.o\x1b[0m\n'}
+[3.607145] (-) TimerEvent: {}
+[3.640811] (people_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libpeople_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.685989] (people_msgs) StdoutLine: {'line': b'[ 17%] Built target people_msgs__rosidl_generator_c\n'}
+[3.698009] (people_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.707240] (-) TimerEvent: {}
+[3.784713] (people_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/people_msgs/msg/people__type_support.cpp.o\x1b[0m\n'}
+[3.807334] (-) TimerEvent: {}
+[3.885935] (people_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/people_msgs/msg/detail/people__type_support.cpp.o\x1b[0m\n'}
+[3.907426] (-) TimerEvent: {}
+[3.960214] (people_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/people_msgs/msg/detail/dds_fastrtps/people__type_support.cpp.o\x1b[0m\n'}
+[4.007524] (-) TimerEvent: {}
+[4.098246] (people_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/people_msgs/msg/person__type_support.cpp.o\x1b[0m\n'}
+[4.107620] (-) TimerEvent: {}
+[4.207965] (-) TimerEvent: {}
+[4.274149] (people_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/people_msgs/msg/detail/people__type_support_c.cpp.o\x1b[0m\n'}
+[4.308068] (-) TimerEvent: {}
+[4.408415] (-) TimerEvent: {}
+[4.414781] (people_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/people_msgs/msg/person_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.436771] (people_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/people_msgs/msg/detail/person__type_support.cpp.o\x1b[0m\n'}
+[4.508515] (-) TimerEvent: {}
+[4.516240] (people_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/people_msgs/msg/detail/dds_fastrtps/person__type_support.cpp.o\x1b[0m\n'}
+[4.608616] (-) TimerEvent: {}
+[4.663483] (people_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/people_msgs/msg/detail/person__type_support_c.cpp.o\x1b[0m\n'}
+[4.708721] (-) TimerEvent: {}
+[4.730813] (people_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/people_msgs/msg/position_measurement__type_support.cpp.o\x1b[0m\n'}
+[4.808827] (-) TimerEvent: {}
+[4.909097] (-) TimerEvent: {}
+[4.919025] (people_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/people_msgs/msg/detail/person_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.009201] (-) TimerEvent: {}
+[5.042366] (people_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/people_msgs/msg/position_measurement_array__type_support.cpp.o\x1b[0m\n'}
+[5.072005] (people_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/people_msgs/msg/detail/dds_fastrtps/person_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.080208] (people_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/people_msgs/msg/detail/person_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[5.109299] (-) TimerEvent: {}
+[5.209556] (-) TimerEvent: {}
+[5.309817] (-) TimerEvent: {}
+[5.356609] (people_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libpeople_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.372293] (people_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/people_msgs/msg/detail/position_measurement__type_support.cpp.o\x1b[0m\n'}
+[5.408204] (people_msgs) StdoutLine: {'line': b'[ 44%] Built target people_msgs__rosidl_typesupport_cpp\n'}
+[5.409902] (-) TimerEvent: {}
+[5.421168] (people_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.494152] (people_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/people_msgs/msg/detail/position_measurement__type_support_c.cpp.o\x1b[0m\n'}
+[5.510000] (-) TimerEvent: {}
+[5.527874] (people_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/people_msgs/msg/detail/dds_fastrtps/position_measurement__type_support.cpp.o\x1b[0m\n'}
+[5.610093] (-) TimerEvent: {}
+[5.710354] (-) TimerEvent: {}
+[5.810701] (-) TimerEvent: {}
+[5.820233] (people_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/people_msgs/msg/detail/position_measurement_array__type_support.cpp.o\x1b[0m\n'}
+[5.910800] (-) TimerEvent: {}
+[5.928819] (people_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/people_msgs/msg/detail/position_measurement_array__type_support_c.cpp.o\x1b[0m\n'}
+[5.989826] (people_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/people__type_support.c.o\x1b[0m\n'}
+[5.993805] (people_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/people_msgs/msg/detail/dds_fastrtps/position_measurement_array__type_support.cpp.o\x1b[0m\n'}
+[6.010895] (-) TimerEvent: {}
+[6.035564] (people_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/person__type_support.c.o\x1b[0m\n'}
+[6.083907] (people_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/person_stamped__type_support.c.o\x1b[0m\n'}
+[6.110999] (-) TimerEvent: {}
+[6.127175] (people_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement__type_support.c.o\x1b[0m\n'}
+[6.173983] (people_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/people_msgs/msg/detail/position_measurement_array__type_support.c.o\x1b[0m\n'}
+[6.211097] (-) TimerEvent: {}
+[6.224625] (people_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libpeople_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.265394] (people_msgs) StdoutLine: {'line': b'[ 63%] Built target people_msgs__rosidl_typesupport_introspection_c\n'}
+[6.277928] (people_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.311189] (-) TimerEvent: {}
+[6.334437] (people_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libpeople_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.349833] (people_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libpeople_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.411298] (-) TimerEvent: {}
+[6.437724] (people_msgs) StdoutLine: {'line': b'[ 68%] Built target people_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.458449] (people_msgs) StdoutLine: {'line': b'[ 68%] Built target people_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.511425] (-) TimerEvent: {}
+[6.611735] (-) TimerEvent: {}
+[6.620897] (people_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libpeople_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.711880] (-) TimerEvent: {}
+[6.729107] (people_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/people_msgs/msg/people__type_support.cpp.o\x1b[0m\n'}
+[6.730495] (people_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/people_msgs/msg/person__type_support.cpp.o\x1b[0m\n'}
+[6.730707] (people_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/people_msgs/msg/person_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.738926] (people_msgs) StdoutLine: {'line': b'[ 74%] Built target people_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.751829] (people_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/people_msgs/msg/position_measurement__type_support.cpp.o\x1b[0m\n'}
+[6.776815] (people_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/people_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/people_msgs/msg/position_measurement_array__type_support.cpp.o\x1b[0m\n'}
+[6.812008] (-) TimerEvent: {}
+[6.820820] (people_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libpeople_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.880190] (people_msgs) StdoutLine: {'line': b'[ 79%] Built target people_msgs__rosidl_typesupport_c\n'}
+[6.908344] (people_msgs) StdoutLine: {'line': b'[ 79%] Built target people_msgs\n'}
+[6.912121] (-) TimerEvent: {}
+[6.937303] (people_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.012252] (-) TimerEvent: {}
+[7.112531] (-) TimerEvent: {}
+[7.212814] (-) TimerEvent: {}
+[7.313097] (-) TimerEvent: {}
+[7.413383] (-) TimerEvent: {}
+[7.513677] (-) TimerEvent: {}
+[7.613958] (-) TimerEvent: {}
+[7.714241] (-) TimerEvent: {}
+[7.814527] (-) TimerEvent: {}
+[7.914786] (-) TimerEvent: {}
+[7.958951] (people_msgs) StdoutLine: {'line': b'[ 80%] Built target people_msgs__py\n'}
+[7.982791] (people_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_py.dir/rosidl_generator_py/people_msgs/msg/_people_s.c.o\x1b[0m\n'}
+[7.982970] (people_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_py.dir/rosidl_generator_py/people_msgs/msg/_person_s.c.o\x1b[0m\n'}
+[7.983108] (people_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_py.dir/rosidl_generator_py/people_msgs/msg/_person_stamped_s.c.o\x1b[0m\n'}
+[7.983301] (people_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_py.dir/rosidl_generator_py/people_msgs/msg/_position_measurement_s.c.o\x1b[0m\n'}
+[8.014878] (-) TimerEvent: {}
+[8.109283] (people_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_generator_py.dir/rosidl_generator_py/people_msgs/msg/_position_measurement_array_s.c.o\x1b[0m\n'}
+[8.114991] (-) TimerEvent: {}
+[8.215290] (-) TimerEvent: {}
+[8.249370] (people_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/people_msgs/libpeople_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.309904] (people_msgs) StdoutLine: {'line': b'[ 90%] Built target people_msgs__rosidl_generator_py\n'}
+[8.315415] (-) TimerEvent: {}
+[8.338624] (people_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/people_msgs/_people_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.338912] (people_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/people_msgs/_people_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.339067] (people_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/people_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/people_msgs/_people_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.415515] (-) TimerEvent: {}
+[8.476074] (people_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/people_msgs/people_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.476236] (people_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/people_msgs/people_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.477013] (people_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/people_msgs/people_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.515619] (-) TimerEvent: {}
+[8.524117] (people_msgs) StdoutLine: {'line': b'[100%] Built target people_msgs__rosidl_typesupport_c__pyext\n'}
+[8.524281] (people_msgs) StdoutLine: {'line': b'[100%] Built target people_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.526014] (people_msgs) StdoutLine: {'line': b'[100%] Built target people_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.539353] (people_msgs) CommandEnded: {'returncode': 0}
+[8.615735] (-) TimerEvent: {}
+[8.705758] (people_msgs) JobProgress: {'identifier': 'people_msgs', 'progress': 'install'}
+[8.706886] (people_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/people_msgs'], 'cwd': '/home/alex/ros2_ws/build/people_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/people_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.715861] (-) TimerEvent: {}
+[8.717961] (people_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.718223] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/rosidl_interfaces/people_msgs\n'}
+[8.718456] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs\n'}
+[8.718691] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg\n'}
+[8.718891] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person.h\n'}
+[8.719025] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person_stamped.h\n'}
+[8.719140] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail\n'}
+[8.719255] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__struct.h\n'}
+[8.719373] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__functions.c\n'}
+[8.719471] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__struct.h\n'}
+[8.719592] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__functions.h\n'}
+[8.719705] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__type_support.h\n'}
+[8.719821] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__functions.h\n'}
+[8.719950] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__functions.h\n'}
+[8.720111] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__functions.h\n'}
+[8.720264] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__type_support.h\n'}
+[8.720458] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__functions.c\n'}
+[8.720631] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__type_support.h\n'}
+[8.720783] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__functions.c\n'}
+[8.720967] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__functions.c\n'}
+[8.721115] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__struct.h\n'}
+[8.721276] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__functions.c\n'}
+[8.721524] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__type_support.h\n'}
+[8.721654] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__struct.h\n'}
+[8.721804] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__type_support.h\n'}
+[8.721959] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__struct.h\n'}
+[8.722093] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__functions.h\n'}
+[8.722247] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.722399] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/people.h\n'}
+[8.722525] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement_array.h\n'}
+[8.722650] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement.h\n'}
+[8.722921] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/library_path.sh\n'}
+[8.723113] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/library_path.dsv\n'}
+[8.723368] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_generator_c.so\n'}
+[8.724017] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_generator_c.so" to ""\n'}
+[8.724140] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs\n'}
+[8.724284] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg\n'}
+[8.724368] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail\n'}
+[8.724456] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_fastrtps_c.h\n'}
+[8.724624] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_fastrtps_c.h\n'}
+[8.724709] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[8.724820] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_fastrtps_c.h\n'}
+[8.724926] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[8.725053] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.725251] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.726281] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.726442] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs\n'}
+[8.726604] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg\n'}
+[8.726700] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement_array.hpp\n'}
+[8.726841] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/people.hpp\n'}
+[8.726932] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail\n'}
+[8.727076] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__builder.hpp\n'}
+[8.727218] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__builder.hpp\n'}
+[8.727329] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__struct.hpp\n'}
+[8.727432] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__builder.hpp\n'}
+[8.727518] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__traits.hpp\n'}
+[8.727622] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__struct.hpp\n'}
+[8.727740] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__struct.hpp\n'}
+[8.727903] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__traits.hpp\n'}
+[8.728066] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__struct.hpp\n'}
+[8.728233] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__traits.hpp\n'}
+[8.728395] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__builder.hpp\n'}
+[8.728645] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__traits.hpp\n'}
+[8.728795] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__struct.hpp\n'}
+[8.728946] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__builder.hpp\n'}
+[8.729075] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__traits.hpp\n'}
+[8.729183] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person.hpp\n'}
+[8.729428] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person_stamped.hpp\n'}
+[8.729569] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement.hpp\n'}
+[8.729728] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs\n'}
+[8.729902] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg\n'}
+[8.730022] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail\n'}
+[8.730152] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.730269] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/dds_fastrtps\n'}
+[8.730378] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.730489] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.730572] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.730688] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.730797] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.730981] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.731795] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.731908] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs\n'}
+[8.732057] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg\n'}
+[8.732144] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail\n'}
+[8.732254] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_introspection_c.h\n'}
+[8.732338] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_introspection_c.h\n'}
+[8.732454] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__type_support.c\n'}
+[8.732824] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[8.732932] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__type_support.c\n'}
+[8.733066] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_introspection_c.h\n'}
+[8.733180] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__type_support.c\n'}
+[8.733380] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_introspection_c.h\n'}
+[8.733521] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__type_support.c\n'}
+[8.733682] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__type_support.c\n'}
+[8.733856] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.734076] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.734643] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.734808] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_c.so\n'}
+[8.735248] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.735454] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs\n'}
+[8.735538] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg\n'}
+[8.735647] (people_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail\n'}
+[8.735729] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.735838] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.735944] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__type_support.cpp\n'}
+[8.736027] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__type_support.cpp\n'}
+[8.736129] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.736252] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__type_support.cpp\n'}
+[8.736484] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.736643] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__type_support.cpp\n'}
+[8.736811] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__type_support.cpp\n'}
+[8.736956] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.737158] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.738098] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.738339] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_cpp.so\n'}
+[8.738695] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.738882] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/pythonpath.sh\n'}
+[8.739005] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/pythonpath.dsv\n'}
+[8.739133] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info\n'}
+[8.739323] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.739489] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.739616] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.739740] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.739899] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs\n'}
+[8.740017] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/_people_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.740201] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.740393] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/libpeople_msgs__rosidl_generator_py.so\n'}
+[8.740688] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/_people_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.740891] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg\n'}
+[8.741053] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_people.py\n'}
+[8.741189] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_people_s.c\n'}
+[8.741393] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_s.c\n'}
+[8.741568] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_array.py\n'}
+[8.741728] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_stamped.py\n'}
+[8.741881] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_s.c\n'}
+[8.742463] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_array_s.c\n'}
+[8.742608] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_stamped_s.c\n'}
+[8.742731] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/__init__.py\n'}
+[8.742817] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person.py\n'}
+[8.742931] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement.py\n'}
+[8.743014] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.743124] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/__init__.py\n'}
+[8.743234] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.743348] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/_people_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.794747] (people_msgs) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs'...\n"}
+[8.794929] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/__init__.py'...\n"}
+[8.795031] (people_msgs) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg'...\n"}
+[8.795119] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/__init__.py'...\n"}
+[8.795206] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_people.py'...\n"}
+[8.795290] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person.py'...\n"}
+[8.795374] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_stamped.py'...\n"}
+[8.795457] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement.py'...\n"}
+[8.795541] (people_msgs) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_array.py'...\n"}
+[8.800776] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.801327] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.801651] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.802209] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.802490] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.803039] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.803197] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_generator_py.so\n'}
+[8.803782] (people_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_generator_py.so" to ""\n'}
+[8.803915] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/People.idl\n'}
+[8.804059] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/Person.idl\n'}
+[8.804242] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PersonStamped.idl\n'}
+[8.804467] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurement.idl\n'}
+[8.804635] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurementArray.idl\n'}
+[8.804822] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/People.msg\n'}
+[8.804976] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/Person.msg\n'}
+[8.805131] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PersonStamped.msg\n'}
+[8.805371] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurement.msg\n'}
+[8.805594] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurementArray.msg\n'}
+[8.805847] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/package_run_dependencies/people_msgs\n'}
+[8.806095] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/parent_prefix_path/people_msgs\n'}
+[8.806319] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/ament_prefix_path.sh\n'}
+[8.806567] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/ament_prefix_path.dsv\n'}
+[8.806805] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/path.sh\n'}
+[8.807045] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/path.dsv\n'}
+[8.807174] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.bash\n'}
+[8.807265] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.sh\n'}
+[8.807382] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.zsh\n'}
+[8.807494] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.dsv\n'}
+[8.807674] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.dsv\n'}
+[8.807951] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/packages/people_msgs\n'}
+[8.808181] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_cExport.cmake\n'}
+[8.808405] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.808666] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.808821] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.809026] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.809202] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.809466] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.809685] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.809875] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.810082] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.810232] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.810439] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.810637] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.810872] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.811020] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.811250] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.811449] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.811666] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.811825] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.812024] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.812211] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.812442] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.812617] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.812824] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.812985] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgsConfig.cmake\n'}
+[8.813115] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgsConfig-version.cmake\n'}
+[8.813369] (people_msgs) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.xml\n'}
+[8.815945] (-) TimerEvent: {}
+[8.816551] (people_msgs) CommandEnded: {'returncode': 0}
+[8.916530] (-) TimerEvent: {}
+[9.016832] (-) TimerEvent: {}
+[9.117221] (-) TimerEvent: {}
+[9.217691] (-) TimerEvent: {}
+[9.220405] (people_msgs) JobEnded: {'identifier': 'people_msgs', 'rc': 0}
+[9.221801] (nav2_social_costmap_plugin) JobStarted: {'identifier': 'nav2_social_costmap_plugin'}
+[9.289772] (people_pub) JobStarted: {'identifier': 'people_pub'}
+[9.317827] (-) TimerEvent: {}
+[9.383238] (nav2_social_costmap_plugin) JobProgress: {'identifier': 'nav2_social_costmap_plugin', 'progress': 'cmake'}
+[9.384256] (nav2_social_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ros2_ws/src/nav2_social_costmap_plugin', '-DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/nav2_social_costmap_plugin'], 'cwd': '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble')]), 'shell': False}
+[9.417951] (-) TimerEvent: {}
+[9.459740] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[9.518071] (-) TimerEvent: {}
+[9.528805] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.537814] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.618194] (-) TimerEvent: {}
+[9.633985] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.644429] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.644889] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.645345] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.649552] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.718318] (-) TimerEvent: {}
+[9.763934] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.773593] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.774255] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.774537] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.778195] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.818527] (-) TimerEvent: {}
+[9.919726] (-) TimerEvent: {}
+[9.994807] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[10.019846] (-) TimerEvent: {}
+[10.119307] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.119938] (-) TimerEvent: {}
+[10.171142] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.177336] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.187751] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.203910] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.220056] (-) TimerEvent: {}
+[10.227228] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.288041] (people_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/people_pub', 'build', '--build-base', '/home/alex/ros2_ws/build/people_pub/build', 'install', '--record', '/home/alex/ros2_ws/build/people_pub/install.log', '--single-version-externally-managed'], 'cwd': '/home/alex/ros2_ws/src/people_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alex', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alex', 'OLDPWD': '/home/alex', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'vi_VN', 'SYSTEMD_EXEC_PID': '1805', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alex', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'vi_VN', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'vi_VN', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1907', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'vi_VN', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alex/ros2_ws/build/people_pub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/people_msgs'}, 'shell': False}
+[10.313948] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.317266] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.320157] (-) TimerEvent: {}
+[10.420508] (-) TimerEvent: {}
+[10.434672] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.466631] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.520605] (-) TimerEvent: {}
+[10.522307] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.533909] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.574260] (people_pub) StdoutLine: {'line': b'running egg_info\n'}
+[10.574889] (people_pub) StdoutLine: {'line': b'creating ../../build/people_pub/people_pub.egg-info\n'}
+[10.575056] (people_pub) StdoutLine: {'line': b'writing ../../build/people_pub/people_pub.egg-info/PKG-INFO\n'}
+[10.575310] (people_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/people_pub/people_pub.egg-info/dependency_links.txt\n'}
+[10.575442] (people_pub) StdoutLine: {'line': b'writing entry points to ../../build/people_pub/people_pub.egg-info/entry_points.txt\n'}
+[10.575549] (people_pub) StdoutLine: {'line': b'writing requirements to ../../build/people_pub/people_pub.egg-info/requires.txt\n'}
+[10.575624] (people_pub) StdoutLine: {'line': b'writing top-level names to ../../build/people_pub/people_pub.egg-info/top_level.txt\n'}
+[10.575806] (people_pub) StdoutLine: {'line': b"writing manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'\n"}
+[10.577761] (people_pub) StdoutLine: {'line': b"reading manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'\n"}
+[10.578022] (people_pub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.578570] (people_pub) StdoutLine: {'line': b"writing manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'\n"}
+[10.578911] (people_pub) StdoutLine: {'line': b'running build\n'}
+[10.579179] (people_pub) StdoutLine: {'line': b'running build_py\n'}
+[10.579292] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/people_pub/build\n'}
+[10.579369] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/people_pub/build/lib\n'}
+[10.579466] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/people_pub/build/lib/people_pub\n'}
+[10.579537] (people_pub) StdoutLine: {'line': b'copying people_pub/people_publisher.py -> /home/alex/ros2_ws/build/people_pub/build/lib/people_pub\n'}
+[10.579604] (people_pub) StdoutLine: {'line': b'copying people_pub/__init__.py -> /home/alex/ros2_ws/build/people_pub/build/lib/people_pub\n'}
+[10.579669] (people_pub) StdoutLine: {'line': b'running install\n'}
+[10.579768] (people_pub) StdoutLine: {'line': b'running install_lib\n'}
+[10.580497] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub\n'}
+[10.580701] (people_pub) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/people_pub/build/lib/people_pub/people_publisher.py -> /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub\n'}
+[10.580858] (people_pub) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/people_pub/build/lib/people_pub/__init__.py -> /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub\n'}
+[10.581367] (people_pub) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub/people_publisher.py to people_publisher.cpython-310.pyc\n'}
+[10.582045] (people_pub) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub/__init__.py to __init__.cpython-310.pyc\n'}
+[10.582314] (people_pub) StdoutLine: {'line': b'running install_data\n'}
+[10.583013] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/people_pub/share/ament_index\n'}
+[10.583247] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/people_pub/share/ament_index/resource_index\n'}
+[10.583381] (people_pub) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/people_pub/share/ament_index/resource_index/packages\n'}
+[10.583453] (people_pub) StdoutLine: {'line': b'copying resource/people_pub -> /home/alex/ros2_ws/install/people_pub/share/ament_index/resource_index/packages\n'}
+[10.583522] (people_pub) StdoutLine: {'line': b'copying package.xml -> /home/alex/ros2_ws/install/people_pub/share/people_pub\n'}
+[10.583589] (people_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.585179] (people_pub) StdoutLine: {'line': b'Copying ../../build/people_pub/people_pub.egg-info to /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub-0.0.0-py3.10.egg-info\n'}
+[10.586232] (people_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[10.610681] (people_pub) StdoutLine: {'line': b'Installing people_publish script to /home/alex/ros2_ws/install/people_pub/lib/people_pub\n'}
+[10.611106] (people_pub) StdoutLine: {'line': b"writing list of installed files to '/home/alex/ros2_ws/build/people_pub/install.log'\n"}
+[10.620730] (-) TimerEvent: {}
+[10.623804] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.624521] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.643707] (people_pub) CommandEnded: {'returncode': 0}
+[10.706443] (people_pub) JobEnded: {'identifier': 'people_pub', 'rc': 0}
+[10.716433] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.717936] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.720882] (-) TimerEvent: {}
+[10.821166] (-) TimerEvent: {}
+[10.921448] (-) TimerEvent: {}
+[10.958965] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[11.021570] (-) TimerEvent: {}
+[11.121871] (-) TimerEvent: {}
+[11.222170] (-) TimerEvent: {}
+[11.322469] (-) TimerEvent: {}
+[11.422769] (-) TimerEvent: {}
+[11.523067] (-) TimerEvent: {}
+[11.623369] (-) TimerEvent: {}
+[11.723667] (-) TimerEvent: {}
+[11.823968] (-) TimerEvent: {}
+[11.924237] (-) TimerEvent: {}
+[12.024538] (-) TimerEvent: {}
+[12.124840] (-) TimerEvent: {}
+[12.225144] (-) TimerEvent: {}
+[12.325426] (-) TimerEvent: {}
+[12.425730] (-) TimerEvent: {}
+[12.491787] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[12.491971] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.525856] (-) TimerEvent: {}
+[12.626148] (-) TimerEvent: {}
+[12.726460] (-) TimerEvent: {}
+[12.826761] (-) TimerEvent: {}
+[12.927065] (-) TimerEvent: {}
+[13.027363] (-) TimerEvent: {}
+[13.127662] (-) TimerEvent: {}
+[13.227967] (-) TimerEvent: {}
+[13.328266] (-) TimerEvent: {}
+[13.428567] (-) TimerEvent: {}
+[13.528878] (-) TimerEvent: {}
+[13.629180] (-) TimerEvent: {}
+[13.729462] (-) TimerEvent: {}
+[13.829763] (-) TimerEvent: {}
+[13.930064] (-) TimerEvent: {}
+[13.958158] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found people_msgs: 0.0.0 (/home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake)\n'}
+[14.030191] (-) TimerEvent: {}
+[14.057100] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.130314] (-) TimerEvent: {}
+[14.230568] (-) TimerEvent: {}
+[14.330842] (-) TimerEvent: {}
+[14.431117] (-) TimerEvent: {}
+[14.531424] (-) TimerEvent: {}
+[14.631696] (-) TimerEvent: {}
+[14.731999] (-) TimerEvent: {}
+[14.832301] (-) TimerEvent: {}
+[14.932608] (-) TimerEvent: {}
+[15.032913] (-) TimerEvent: {}
+[15.051968] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.060383] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.060870] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/alex/ros2_ws/src/nav2_social_costmap_plugin/include\n'}
+[15.061014] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.069132] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[15.069329] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[15.072718] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.081886] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.082038] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.083435] (nav2_social_costmap_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.085070] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.133044] (-) TimerEvent: {}
+[15.160965] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[15.163684] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/nav2_social_costmap_plugin\n'}
+[15.178748] (nav2_social_costmap_plugin) CommandEnded: {'returncode': 0}
+[15.179586] (nav2_social_costmap_plugin) JobProgress: {'identifier': 'nav2_social_costmap_plugin', 'progress': 'build'}
+[15.180604] (nav2_social_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', '--', '-j4', '-l4'], 'cwd': '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble')]), 'shell': False}
+[15.233170] (-) TimerEvent: {}
+[15.250083] (nav2_social_costmap_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_social_costmap_plugin_core.dir/src/social_layer.cpp.o\x1b[0m\n'}
+[15.333348] (-) TimerEvent: {}
+[15.433641] (-) TimerEvent: {}
+[15.533936] (-) TimerEvent: {}
+[15.634239] (-) TimerEvent: {}
+[15.734540] (-) TimerEvent: {}
+[15.834826] (-) TimerEvent: {}
+[15.935125] (-) TimerEvent: {}
+[16.035428] (-) TimerEvent: {}
+[16.135745] (-) TimerEvent: {}
+[16.236062] (-) TimerEvent: {}
+[16.336340] (-) TimerEvent: {}
+[16.436647] (-) TimerEvent: {}
+[16.536946] (-) TimerEvent: {}
+[16.637290] (-) TimerEvent: {}
+[16.737616] (-) TimerEvent: {}
+[16.837924] (-) TimerEvent: {}
+[16.938236] (-) TimerEvent: {}
+[17.038543] (-) TimerEvent: {}
+[17.138836] (-) TimerEvent: {}
+[17.239143] (-) TimerEvent: {}
+[17.339452] (-) TimerEvent: {}
+[17.439744] (-) TimerEvent: {}
+[17.540037] (-) TimerEvent: {}
+[17.640350] (-) TimerEvent: {}
+[17.740666] (-) TimerEvent: {}
+[17.840990] (-) TimerEvent: {}
+[17.941346] (-) TimerEvent: {}
+[18.041653] (-) TimerEvent: {}
+[18.141969] (-) TimerEvent: {}
+[18.242291] (-) TimerEvent: {}
+[18.342607] (-) TimerEvent: {}
+[18.442925] (-) TimerEvent: {}
+[18.543235] (-) TimerEvent: {}
+[18.643548] (-) TimerEvent: {}
+[18.743825] (-) TimerEvent: {}
+[18.844135] (-) TimerEvent: {}
+[18.944450] (-) TimerEvent: {}
+[19.044763] (-) TimerEvent: {}
+[19.145085] (-) TimerEvent: {}
+[19.245413] (-) TimerEvent: {}
+[19.345753] (-) TimerEvent: {}
+[19.446091] (-) TimerEvent: {}
+[19.546365] (-) TimerEvent: {}
+[19.646673] (-) TimerEvent: {}
+[19.746983] (-) TimerEvent: {}
+[19.847298] (-) TimerEvent: {}
+[19.911851] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_social_costmap_plugin::SocialLayer::updateBounds(double, double, double, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.912117] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krobot_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.912195] (nav2_social_costmap_plugin) StderrLine: {'line': b'  121 |   void SocialLayer::updateBounds(\x1b[01;35m\x1b[Kdouble robot_x\x1b[m\x1b[K, double robot_y, double robot_yaw, double *min_x,\n'}
+[19.912261] (nav2_social_costmap_plugin) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[19.912455] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krobot_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.912574] (nav2_social_costmap_plugin) StderrLine: {'line': b'  121 |   void SocialLayer::updateBounds(double robot_x, \x1b[01;35m\x1b[Kdouble robot_y\x1b[m\x1b[K, double robot_yaw, double *min_x,\n'}
+[19.912677] (nav2_social_costmap_plugin) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[19.912747] (nav2_social_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alex/ros2_ws/src/nav2_social_costmap_plugin/src/social_layer.cpp:121:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krobot_yaw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.912819] (nav2_social_costmap_plugin) StderrLine: {'line': b'  121 | lLayer::updateBounds(double robot_x, double robot_y, \x1b[01;35m\x1b[Kdouble robot_yaw\x1b[m\x1b[K, double *min_x,\n'}
+[19.912886] (nav2_social_costmap_plugin) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[19.912977] (nav2_social_costmap_plugin) StderrLine: {'line': b'\n'}
+[19.947390] (-) TimerEvent: {}
+[20.047685] (-) TimerEvent: {}
+[20.147963] (-) TimerEvent: {}
+[20.248269] (-) TimerEvent: {}
+[20.348557] (-) TimerEvent: {}
+[20.448845] (-) TimerEvent: {}
+[20.549137] (-) TimerEvent: {}
+[20.649441] (-) TimerEvent: {}
+[20.749748] (-) TimerEvent: {}
+[20.850053] (-) TimerEvent: {}
+[20.950358] (-) TimerEvent: {}
+[21.050644] (-) TimerEvent: {}
+[21.150952] (-) TimerEvent: {}
+[21.251239] (-) TimerEvent: {}
+[21.351526] (-) TimerEvent: {}
+[21.451816] (-) TimerEvent: {}
+[21.552126] (-) TimerEvent: {}
+[21.652418] (-) TimerEvent: {}
+[21.752727] (-) TimerEvent: {}
+[21.853033] (-) TimerEvent: {}
+[21.953350] (-) TimerEvent: {}
+[22.053656] (-) TimerEvent: {}
+[22.153946] (-) TimerEvent: {}
+[22.254269] (-) TimerEvent: {}
+[22.354584] (-) TimerEvent: {}
+[22.454897] (-) TimerEvent: {}
+[22.555193] (-) TimerEvent: {}
+[22.655492] (-) TimerEvent: {}
+[22.755804] (-) TimerEvent: {}
+[22.856119] (-) TimerEvent: {}
+[22.956429] (-) TimerEvent: {}
+[23.056738] (-) TimerEvent: {}
+[23.157065] (-) TimerEvent: {}
+[23.257433] (-) TimerEvent: {}
+[23.357743] (-) TimerEvent: {}
+[23.458051] (-) TimerEvent: {}
+[23.558354] (-) TimerEvent: {}
+[23.658662] (-) TimerEvent: {}
+[23.758963] (-) TimerEvent: {}
+[23.859274] (-) TimerEvent: {}
+[23.959521] (-) TimerEvent: {}
+[24.059841] (-) TimerEvent: {}
+[24.160164] (-) TimerEvent: {}
+[24.260479] (-) TimerEvent: {}
+[24.360775] (-) TimerEvent: {}
+[24.461095] (-) TimerEvent: {}
+[24.561372] (-) TimerEvent: {}
+[24.661662] (-) TimerEvent: {}
+[24.761951] (-) TimerEvent: {}
+[24.862253] (-) TimerEvent: {}
+[24.962558] (-) TimerEvent: {}
+[25.062887] (-) TimerEvent: {}
+[25.163172] (-) TimerEvent: {}
+[25.263474] (-) TimerEvent: {}
+[25.363757] (-) TimerEvent: {}
+[25.464057] (-) TimerEvent: {}
+[25.564343] (-) TimerEvent: {}
+[25.664627] (-) TimerEvent: {}
+[25.764928] (-) TimerEvent: {}
+[25.865213] (-) TimerEvent: {}
+[25.965579] (-) TimerEvent: {}
+[26.065883] (-) TimerEvent: {}
+[26.166168] (-) TimerEvent: {}
+[26.266468] (-) TimerEvent: {}
+[26.366810] (-) TimerEvent: {}
+[26.467189] (-) TimerEvent: {}
+[26.567506] (-) TimerEvent: {}
+[26.667809] (-) TimerEvent: {}
+[26.768115] (-) TimerEvent: {}
+[26.868424] (-) TimerEvent: {}
+[26.968736] (-) TimerEvent: {}
+[27.069042] (-) TimerEvent: {}
+[27.169335] (-) TimerEvent: {}
+[27.171896] (nav2_social_costmap_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_social_costmap_plugin_core.so\x1b[0m\n'}
+[27.269435] (-) TimerEvent: {}
+[27.369752] (-) TimerEvent: {}
+[27.470077] (-) TimerEvent: {}
+[27.570407] (-) TimerEvent: {}
+[27.670732] (-) TimerEvent: {}
+[27.771053] (-) TimerEvent: {}
+[27.871372] (-) TimerEvent: {}
+[27.971682] (-) TimerEvent: {}
+[28.071996] (-) TimerEvent: {}
+[28.123333] (nav2_social_costmap_plugin) StdoutLine: {'line': b'[100%] Built target nav2_social_costmap_plugin_core\n'}
+[28.138930] (nav2_social_costmap_plugin) CommandEnded: {'returncode': 0}
+[28.172086] (-) TimerEvent: {}
+[28.174384] (nav2_social_costmap_plugin) JobProgress: {'identifier': 'nav2_social_costmap_plugin', 'progress': 'install'}
+[28.174940] (nav2_social_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'], 'cwd': '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-Inspiron-5577:@/tmp/.ICE-unix/1782,unix/alex-Inspiron-5577:/tmp/.ICE-unix/1782'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd758ed4_e6bb_4445_a009_010595d2ff0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1907'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/nav2_social_costmap_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alex/ros2_ws/install/people_msgs:/opt/ros/humble')]), 'shell': False}
+[28.186435] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.186759] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/libnav2_social_costmap_plugin_core.so\n'}
+[28.196604] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/libnav2_social_costmap_plugin_core.so" to ""\n'}
+[28.196866] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/social_layer.xml\n'}
+[28.197033] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_social_costmap_plugin\n'}
+[28.197184] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_social_costmap_plugin\n'}
+[28.197530] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/ament_prefix_path.sh\n'}
+[28.197786] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/ament_prefix_path.dsv\n'}
+[28.197996] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/path.sh\n'}
+[28.198175] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/environment/path.dsv\n'}
+[28.198273] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.bash\n'}
+[28.198450] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.sh\n'}
+[28.198776] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.zsh\n'}
+[28.198953] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/local_setup.dsv\n'}
+[28.199055] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.dsv\n'}
+[28.199208] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/packages/nav2_social_costmap_plugin\n'}
+[28.199416] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_social_costmap_plugin\n'}
+[28.199648] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/cmake/nav2_social_costmap_pluginConfig.cmake\n'}
+[28.199792] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/cmake/nav2_social_costmap_pluginConfig-version.cmake\n'}
+[28.199969] (nav2_social_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.xml\n'}
+[28.202670] (nav2_social_costmap_plugin) CommandEnded: {'returncode': 0}
+[28.272424] (-) TimerEvent: {}
+[28.372731] (-) TimerEvent: {}
+[28.418100] (nav2_social_costmap_plugin) JobEnded: {'identifier': 'nav2_social_costmap_plugin', 'rc': 0}
+[28.419123] (-) EventReactorShutdown: {}

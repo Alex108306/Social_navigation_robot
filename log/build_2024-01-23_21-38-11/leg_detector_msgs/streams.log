@@ -1,0 +1,199 @@
+[0.643s] Invoking command in '/home/alex/ros2_ws/build/leg_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector_msgs -- -j4 -l4
+[0.861s] [  1%] Built target leg_detector_msgs__cpp
+[1.028s] [  1%] Built target ament_cmake_python_copy_leg_detector_msgs
+[1.142s] [ 12%] Built target leg_detector_msgs__rosidl_typesupport_fastrtps_cpp
+[1.234s] [ 23%] Built target leg_detector_msgs__rosidl_typesupport_introspection_cpp
+[1.928s] running egg_info
+[1.928s] writing leg_detector_msgs.egg-info/PKG-INFO
+[1.928s] writing dependency_links to leg_detector_msgs.egg-info/dependency_links.txt
+[1.928s] writing top-level names to leg_detector_msgs.egg-info/top_level.txt
+[1.929s] reading manifest file 'leg_detector_msgs.egg-info/SOURCES.txt'
+[1.930s] writing manifest file 'leg_detector_msgs.egg-info/SOURCES.txt'
+[2.023s] [ 23%] Built target ament_cmake_python_build_leg_detector_msgs_egg
+[2.114s] [ 34%] Built target leg_detector_msgs__rosidl_typesupport_cpp
+[2.215s] [ 45%] Built target leg_detector_msgs__rosidl_generator_c
+[2.300s] [ 56%] Built target leg_detector_msgs__rosidl_typesupport_fastrtps_c
+[2.411s] [ 67%] Built target leg_detector_msgs__rosidl_typesupport_c
+[2.496s] [ 78%] Built target leg_detector_msgs__rosidl_typesupport_introspection_c
+[2.588s] [ 78%] Built target leg_detector_msgs
+[2.645s] [ 80%] Built target leg_detector_msgs__py
+[2.770s] [ 89%] Built target leg_detector_msgs__rosidl_generator_py
+[2.837s] [ 92%] Built target leg_detector_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.941s] [ 96%] Built target leg_detector_msgs__rosidl_typesupport_c__pyext
+[3.005s] [100%] Built target leg_detector_msgs__rosidl_typesupport_introspection_c__pyext
+[3.463s] Invoked command in '/home/alex/ros2_ws/build/leg_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector_msgs -- -j4 -l4
+[4.022s] Invoking command in '/home/alex/ros2_ws/build/leg_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector_msgs
+[4.049s] -- Install configuration: ""
+[4.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/rosidl_interfaces/leg_detector_msgs
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human_array.h
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human.h
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__functions.h
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__functions.h
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__struct.h
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__functions.c
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__functions.c
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__functions.c
+[4.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__struct.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__functions.c
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__functions.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__struct.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__functions.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__type_support.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__type_support.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__type_support.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__struct.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__type_support.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg_array.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg.h
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/library_path.sh
+[4.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/library_path.dsv
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_generator_c.so
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_fastrtps_c.h
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_fastrtps_c.h
+[4.056s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_fastrtps_c.h
+[4.057s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_fastrtps_c.h
+[4.057s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.057s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_fastrtps_c.so
+[4.057s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__struct.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__builder.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__builder.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__builder.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__struct.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__traits.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__struct.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__builder.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__traits.hpp
+[4.058s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__traits.hpp
+[4.059s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__traits.hpp
+[4.059s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__struct.hpp
+[4.059s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human.hpp
+[4.059s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/leg_array.hpp
+[4.059s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/human_array.hpp
+[4.063s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs
+[4.064s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg
+[4.065s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail
+[4.065s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.065s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.065s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/dds_fastrtps
+[4.065s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.065s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_fastrtps_cpp.hpp
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__type_support.c
+[4.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_introspection_c.h
+[4.076s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__type_support.c
+[4.076s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_introspection_c.h
+[4.076s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_introspection_c.h
+[4.076s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__type_support.c
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_introspection_c.h
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__type_support.c
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_introspection_c.so
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_c.so
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__type_support.cpp
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human_array__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg_array__type_support.cpp
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/leg__type_support.cpp
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/include/leg_detector_msgs/leg_detector_msgs/msg/detail/human__type_support.cpp
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_introspection_cpp.so
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_typesupport_cpp.so
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/pythonpath.sh
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/pythonpath.dsv
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info
+[4.078s] -- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.078s] -- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.081s] -- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.081s] -- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.081s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs
+[4.081s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_c.c
+[4.081s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg
+[4.081s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_array.py
+[4.081s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_array_s.c
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/__init__.py
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_s.c
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg_s.c
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_array_s.c
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human.py
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_leg.py
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg/_human_array.py
+[4.082s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.083s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/__init__.py
+[4.083s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/libleg_detector_msgs__rosidl_generator_py.so
+[4.083s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.083s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.083s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/_leg_detector_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.083s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.231s] Listing '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs'...
+[4.232s] Listing '/home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/msg'...
+[4.251s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.251s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.252s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/local/lib/python3.10/dist-packages/leg_detector_msgs/leg_detector_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.252s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/lib/libleg_detector_msgs__rosidl_generator_py.so
+[4.252s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Human.idl
+[4.253s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/HumanArray.idl
+[4.253s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Leg.idl
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/LegArray.idl
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Human.msg
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/HumanArray.msg
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/Leg.msg
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/msg/LegArray.msg
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/package_run_dependencies/leg_detector_msgs
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/parent_prefix_path/leg_detector_msgs
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/ament_prefix_path.sh
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/ament_prefix_path.dsv
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/path.sh
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/environment/path.dsv
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.bash
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.sh
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.zsh
+[4.254s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/local_setup.dsv
+[4.255s] -- Installing: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.dsv
+[4.256s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/ament_index/resource_index/packages/leg_detector_msgs
+[4.260s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_cExport.cmake
+[4.260s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.260s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.261s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.261s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_cppExport.cmake
+[4.262s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.262s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.266s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.267s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.268s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cExport.cmake
+[4.269s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.271s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.271s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.272s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cppExport.cmake
+[4.272s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.272s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_pyExport.cmake
+[4.272s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/export_leg_detector_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.273s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/rosidl_cmake-extras.cmake
+[4.273s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.273s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.274s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.275s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.275s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.275s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.279s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgsConfig.cmake
+[4.281s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/cmake/leg_detector_msgsConfig-version.cmake
+[4.282s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.xml
+[4.299s] Invoked command in '/home/alex/ros2_ws/build/leg_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector_msgs

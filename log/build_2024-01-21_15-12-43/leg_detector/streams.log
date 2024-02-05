@@ -1,0 +1,60 @@
+[0.712s] Invoking command in '/home/alex/ros2_ws/build/leg_detector': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector -- -j4 -l4
+[0.940s] [ 44%] Built target detect_leg_clusters
+[1.007s] [ 66%] Built target inflated_human_scan
+[1.089s] [100%] Built target local_occupancy_grid_mapping
+[1.674s] Invoked command in '/home/alex/ros2_ws/build/leg_detector' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector -- -j4 -l4
+[2.016s] Invoking command in '/home/alex/ros2_ws/build/leg_detector': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector
+[2.050s] -- Install configuration: ""
+[2.052s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/detect_leg_clusters
+[2.052s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/local_occupancy_grid_mapping
+[2.052s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/inflated_human_scan
+[2.052s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/launch
+[2.052s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/launch/demo_stationary_simple_environment.launch.py
+[2.052s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/demo_stationary_simple_environment.bag
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/demo_moving_super_crowded.bag
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/demo_stationary_cluttered_environment.bag
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz/demo_stationary_simple_environment.rviz
+[2.053s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz/demo_moving_super_crowded2.rviz
+[2.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/demos/rviz/demo_stationary_simple_environment2.rviz
+[2.054s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33
+[2.055s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_7_extracted.bag
+[2.060s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_1.bag
+[2.061s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_3_extracted.bag
+[2.062s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_2_extracted.bag
+[2.062s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_1_extracted.bag
+[2.068s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_2.bag
+[2.068s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_4.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_3.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_4_extracted.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_6_extracted.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/negative_9.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_4.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_3.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_7.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_2.bag
+[2.069s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_6.bag
+[2.070s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_1.bag
+[2.070s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/rosbag/training_scans_res=0.33/positive_not_extracted/positive_5.bag
+[2.071s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/config
+[2.071s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/config/trained_leg_detector_res=0.33.yaml
+[2.072s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/lib/leg_detector/joint_leg_tracker.py
+[2.072s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/ament_index/resource_index/package_run_dependencies/leg_detector
+[2.072s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/ament_index/resource_index/parent_prefix_path/leg_detector
+[2.074s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/ament_prefix_path.sh
+[2.075s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/ament_prefix_path.dsv
+[2.075s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/path.sh
+[2.075s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/environment/path.dsv
+[2.075s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.bash
+[2.075s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.sh
+[2.075s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.zsh
+[2.076s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/local_setup.dsv
+[2.076s] -- Installing: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.dsv
+[2.077s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/ament_index/resource_index/packages/leg_detector
+[2.078s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/cmake/leg_detectorConfig.cmake
+[2.079s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/cmake/leg_detectorConfig-version.cmake
+[2.079s] -- Up-to-date: /home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.xml
+[2.081s] Invoked command in '/home/alex/ros2_ws/build/leg_detector' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector

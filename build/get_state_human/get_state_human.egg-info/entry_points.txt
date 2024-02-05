@@ -1,0 +1,3 @@
+[console_scripts]
+social = get_state_human.get_state:main
+

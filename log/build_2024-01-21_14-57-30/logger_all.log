@@ -1,0 +1,519 @@
+[2.388s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.388s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2a38946020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2a389459c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2a389459c0>>)
+[2.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alex/ros2_ws'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extension 'ignore'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extension 'ignore_ament_install'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extensions ['colcon_pkg']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extension 'colcon_pkg'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extensions ['colcon_meta']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extension 'colcon_meta'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extensions ['ros']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/People_msgs) by extension 'ros'
+[2.537s] DEBUG:colcon.colcon_core.package_identification:Package 'src/People_msgs' with type 'ros.ament_cmake' and name 'people_msgs'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[2.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extensions ['ignore', 'ignore_ament_install']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extension 'ignore'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extension 'ignore_ament_install'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extensions ['colcon_pkg']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extension 'colcon_pkg'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extensions ['colcon_meta']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extension 'colcon_meta'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extensions ['ros']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_state_human) by extension 'ros'
+[2.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/get_state_human' with type 'ros.ament_python' and name 'get_state_human'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extension 'ignore'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extension 'ignore_ament_install'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extensions ['colcon_pkg']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extension 'colcon_pkg'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extensions ['colcon_meta']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extension 'colcon_meta'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extensions ['ros']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector) by extension 'ros'
+[2.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leg_detector' with type 'ros.ament_cmake' and name 'leg_detector'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extension 'ignore'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extension 'ignore_ament_install'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extensions ['colcon_pkg']
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extension 'colcon_pkg'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extensions ['colcon_meta']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extension 'colcon_meta'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extensions ['ros']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/leg_detector_msgs) by extension 'ros'
+[2.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leg_detector_msgs' with type 'ros.ament_cmake' and name 'leg_detector_msgs'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extension 'ignore'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extension 'ignore_ament_install'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extensions ['colcon_pkg']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extension 'colcon_pkg'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extensions ['colcon_meta']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extension 'colcon_meta'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extensions ['ros']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_social_costmap_plugin) by extension 'ros'
+[2.554s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_social_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_social_costmap_plugin'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extensions ['ignore', 'ignore_ament_install']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extension 'ignore'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extension 'ignore_ament_install'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extensions ['colcon_pkg']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extension 'colcon_pkg'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extensions ['colcon_meta']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extension 'colcon_meta'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extensions ['ros']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_pub) by extension 'ros'
+[2.556s] DEBUG:colcon.colcon_core.package_identification:Package 'src/people_pub' with type 'ros.ament_python' and name 'people_pub'
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.850s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/alex/ros2_ws/install
+[2.890s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[2.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.155s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/articubot_one', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'cmake_args' from command line to 'None'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'cmake_target' from command line to 'None'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'cmake_clean_cache' from command line to 'False'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'cmake_clean_first' from command line to 'False'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'cmake_force_configure' from command line to 'False'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'ament_cmake_args' from command line to 'None'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'catkin_cmake_args' from command line to 'None'
+[3.187s] Level 5:colcon.colcon_core.verb:set package 'get_state_human' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.187s] DEBUG:colcon.colcon_core.verb:Building package 'get_state_human' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/get_state_human', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/get_state_human', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/get_state_human', 'symlink_install': False, 'test_result_base': None}
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'cmake_args' from command line to 'None'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'cmake_target' from command line to 'None'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.219s] Level 5:colcon.colcon_core.verb:set package 'leg_detector_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.220s] DEBUG:colcon.colcon_core.verb:Building package 'leg_detector_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/leg_detector_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/leg_detector_msgs', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/leg_detector_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_args' from command line to 'None'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_target' from command line to 'None'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.254s] DEBUG:colcon.colcon_core.verb:Building package 'people_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/people_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/people_msgs', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/People_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'cmake_args' from command line to 'None'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'cmake_target' from command line to 'None'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'cmake_clean_first' from command line to 'False'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'cmake_force_configure' from command line to 'False'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'ament_cmake_args' from command line to 'None'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'leg_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.288s] DEBUG:colcon.colcon_core.verb:Building package 'leg_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/leg_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/leg_detector', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/leg_detector', 'symlink_install': False, 'test_result_base': None}
+[3.326s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'cmake_args' from command line to 'None'
+[3.326s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'cmake_target' from command line to 'None'
+[3.326s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.326s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[3.326s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[3.327s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[3.327s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[3.327s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[3.328s] Level 5:colcon.colcon_core.verb:set package 'nav2_social_costmap_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.328s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_social_costmap_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/nav2_social_costmap_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/nav2_social_costmap_plugin', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/nav2_social_costmap_plugin', 'symlink_install': False, 'test_result_base': None}
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'cmake_args' from command line to 'None'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'cmake_target' from command line to 'None'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'cmake_clean_first' from command line to 'False'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'cmake_force_configure' from command line to 'False'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'ament_cmake_args' from command line to 'None'
+[3.365s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.366s] Level 5:colcon.colcon_core.verb:set package 'people_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.366s] DEBUG:colcon.colcon_core.verb:Building package 'people_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alex/ros2_ws/build/people_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alex/ros2_ws/install/people_pub', 'merge_install': False, 'path': '/home/alex/ros2_ws/src/people_pub', 'symlink_install': False, 'test_result_base': None}
+[3.402s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.431s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ros2_ws/src/leg_detector_msgs' with build type 'ament_cmake'
+[3.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ros2_ws/src/leg_detector_msgs'
+[3.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ros2_ws/src/People_msgs' with build type 'ament_cmake'
+[3.572s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ros2_ws/src/People_msgs'
+[3.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ros2_ws/src/articubot_one' with build type 'ament_cmake'
+[3.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ros2_ws/src/articubot_one'
+[3.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.866s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/ros2_ws/src/get_state_human' with build type 'ament_python'
+[3.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('get_state_human', 'ament_prefix_path')
+[3.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/hook/ament_prefix_path.ps1'
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/hook/ament_prefix_path.dsv'
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/hook/ament_prefix_path.sh'
+[3.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/leg_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector_msgs -- -j4 -l4
+[4.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/people_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/people_msgs -- -j4 -l4
+[4.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/articubot_one -- -j4 -l4
+[5.187s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/ros2_ws/src/get_state_human'
+[5.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/articubot_one -- -j4 -l4
+[5.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/articubot_one
+[5.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[5.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/articubot_one
+[5.850s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one' for CMake module files
+[5.850s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one' for CMake config files
+[5.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[5.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[5.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[5.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[5.914s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/bin'
+[5.914s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[5.914s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/lib/python3.10/site-packages'
+[5.915s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/bin'
+[5.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.ps1'
+[5.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.dsv'
+[5.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.sh'
+[5.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.bash'
+[5.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.zsh'
+[5.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[6.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[6.168s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one' for CMake module files
+[6.169s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one' for CMake config files
+[6.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[6.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[6.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[6.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[6.250s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/bin'
+[6.250s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[6.251s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/lib/python3.10/site-packages'
+[6.252s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/articubot_one/bin'
+[6.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.ps1'
+[6.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.dsv'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.sh'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.bash'
+[6.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/articubot_one/share/articubot_one/package.zsh'
+[6.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[6.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/people_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/people_msgs -- -j4 -l4
+[6.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/leg_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector_msgs -- -j4 -l4
+[6.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/src/get_state_human': PYTHONPATH=/home/alex/ros2_ws/build/get_state_human/prefix_override:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/get_state_human build --build-base /home/alex/ros2_ws/build/get_state_human/build install --record /home/alex/ros2_ws/build/get_state_human/install.log --single-version-externally-managed
+[7.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/people_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/people_msgs
+[7.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(people_msgs)
+[7.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/people_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/people_msgs
+[7.688s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs' for CMake module files
+[7.690s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs' for CMake config files
+[7.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'cmake_prefix_path')
+[7.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.ps1'
+[7.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.dsv'
+[7.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.sh'
+[7.756s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/lib'
+[7.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'ld_library_path_lib')
+[7.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.ps1'
+[7.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.dsv'
+[7.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.sh'
+[7.829s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/bin'
+[7.829s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/lib/pkgconfig/people_msgs.pc'
+[7.829s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/lib/python3.10/site-packages'
+[7.829s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/bin'
+[7.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.ps1'
+[7.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.dsv'
+[7.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.sh'
+[7.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.bash'
+[7.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.zsh'
+[7.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/people_msgs/share/colcon-core/packages/people_msgs)
+[7.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/leg_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector_msgs
+[7.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/src/get_state_human' returned '0': PYTHONPATH=/home/alex/ros2_ws/build/get_state_human/prefix_override:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/get_state_human build --build-base /home/alex/ros2_ws/build/get_state_human/build install --record /home/alex/ros2_ws/build/get_state_human/install.log --single-version-externally-managed
+[7.953s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human' for CMake module files
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human' for CMake config files
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human/lib'
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human/bin'
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human/lib/pkgconfig/get_state_human.pc'
+[7.956s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages'
+[7.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('get_state_human', 'pythonpath')
+[7.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/hook/pythonpath.ps1'
+[7.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/hook/pythonpath.dsv'
+[7.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/hook/pythonpath.sh'
+[7.982s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/get_state_human/bin'
+[7.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(get_state_human)
+[8.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/package.ps1'
+[8.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/package.dsv'
+[8.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/package.sh'
+[8.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/package.bash'
+[8.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/get_state_human/share/get_state_human/package.zsh'
+[8.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/get_state_human/share/colcon-core/packages/get_state_human)
+[8.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leg_detector_msgs)
+[8.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/leg_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector_msgs
+[8.081s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs' for CMake module files
+[8.082s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs' for CMake config files
+[8.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('leg_detector_msgs', 'cmake_prefix_path')
+[8.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/cmake_prefix_path.ps1'
+[8.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/cmake_prefix_path.dsv'
+[8.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/cmake_prefix_path.sh'
+[8.119s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/lib'
+[8.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('leg_detector_msgs', 'ld_library_path_lib')
+[8.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/ld_library_path_lib.ps1'
+[8.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/ld_library_path_lib.dsv'
+[8.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/ld_library_path_lib.sh'
+[8.155s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/bin'
+[8.155s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/lib/pkgconfig/leg_detector_msgs.pc'
+[8.155s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/lib/python3.10/site-packages'
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/bin'
+[8.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.ps1'
+[8.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.dsv'
+[8.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.sh'
+[8.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.bash'
+[8.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.zsh'
+[8.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/leg_detector_msgs/share/colcon-core/packages/leg_detector_msgs)
+[8.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(people_msgs)
+[8.539s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs' for CMake module files
+[8.540s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs' for CMake config files
+[8.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'cmake_prefix_path')
+[8.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.ps1'
+[8.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.dsv'
+[8.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/cmake_prefix_path.sh'
+[8.601s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/lib'
+[8.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_msgs', 'ld_library_path_lib')
+[8.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.ps1'
+[8.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.dsv'
+[8.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/hook/ld_library_path_lib.sh'
+[8.631s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/bin'
+[8.631s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/lib/pkgconfig/people_msgs.pc'
+[8.632s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/lib/python3.10/site-packages'
+[8.634s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_msgs/bin'
+[8.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.ps1'
+[8.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.dsv'
+[8.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.sh'
+[8.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.bash'
+[8.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.zsh'
+[8.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/people_msgs/share/colcon-core/packages/people_msgs)
+[8.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ros2_ws/src/nav2_social_costmap_plugin' with build type 'ament_cmake'
+[8.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ros2_ws/src/nav2_social_costmap_plugin'
+[8.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leg_detector_msgs)
+[8.897s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs' for CMake module files
+[8.898s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs' for CMake config files
+[8.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('leg_detector_msgs', 'cmake_prefix_path')
+[8.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/cmake_prefix_path.ps1'
+[8.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/cmake_prefix_path.dsv'
+[8.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/cmake_prefix_path.sh'
+[8.935s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/lib'
+[8.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('leg_detector_msgs', 'ld_library_path_lib')
+[8.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/ld_library_path_lib.ps1'
+[8.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/ld_library_path_lib.dsv'
+[8.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/hook/ld_library_path_lib.sh'
+[8.980s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/bin'
+[8.980s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/lib/pkgconfig/leg_detector_msgs.pc'
+[8.981s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/lib/python3.10/site-packages'
+[8.981s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector_msgs/bin'
+[9.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.ps1'
+[9.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.dsv'
+[9.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.sh'
+[9.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.bash'
+[9.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector_msgs/share/leg_detector_msgs/package.zsh'
+[9.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/leg_detector_msgs/share/colcon-core/packages/leg_detector_msgs)
+[9.022s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alex/ros2_ws/src/leg_detector' with build type 'ament_cmake'
+[9.022s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alex/ros2_ws/src/leg_detector'
+[9.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alex/ros2_ws/src/people_pub' with build type 'ament_python'
+[9.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_pub', 'ament_prefix_path')
+[9.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_pub/share/people_pub/hook/ament_prefix_path.ps1'
+[9.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/people_pub/share/people_pub/hook/ament_prefix_path.dsv'
+[9.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_pub/share/people_pub/hook/ament_prefix_path.sh'
+[9.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/nav2_social_costmap_plugin': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alex/ros2_ws/build/nav2_social_costmap_plugin -- -j4 -l4
+[9.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/leg_detector': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector -- -j4 -l4
+[10.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alex/ros2_ws/src/people_pub'
+[10.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/leg_detector' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alex/ros2_ws/build/leg_detector -- -j4 -l4
+[10.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/nav2_social_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alex/ros2_ws/build/nav2_social_costmap_plugin -- -j4 -l4
+[10.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/nav2_social_costmap_plugin': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alex/ros2_ws/build/nav2_social_costmap_plugin
+[10.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_social_costmap_plugin)
+[10.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/nav2_social_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alex/ros2_ws/build/nav2_social_costmap_plugin
+[10.402s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin' for CMake module files
+[10.403s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin' for CMake config files
+[10.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_social_costmap_plugin', 'cmake_prefix_path')
+[10.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/cmake_prefix_path.ps1'
+[10.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/cmake_prefix_path.dsv'
+[10.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/cmake_prefix_path.sh'
+[10.442s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib'
+[10.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_social_costmap_plugin', 'ld_library_path_lib')
+[10.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/ld_library_path_lib.ps1'
+[10.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/ld_library_path_lib.dsv'
+[10.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/ld_library_path_lib.sh'
+[10.511s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/bin'
+[10.511s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/pkgconfig/nav2_social_costmap_plugin.pc'
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/python3.10/site-packages'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/bin'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.ps1'
+[10.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.dsv'
+[10.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.sh'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.bash'
+[10.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.zsh'
+[10.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/colcon-core/packages/nav2_social_costmap_plugin)
+[10.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/build/leg_detector': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector
+[10.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leg_detector)
+[10.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/build/leg_detector' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/home/alex/ros2_ws/install/people_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alex/ros2_ws/build/leg_detector
+[10.704s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector' for CMake module files
+[10.704s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector' for CMake config files
+[10.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('leg_detector', 'cmake_prefix_path')
+[10.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/hook/cmake_prefix_path.ps1'
+[10.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/hook/cmake_prefix_path.dsv'
+[10.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/hook/cmake_prefix_path.sh'
+[10.764s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/lib'
+[10.764s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/bin'
+[10.764s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/lib/pkgconfig/leg_detector.pc'
+[10.764s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/lib/python3.10/site-packages'
+[10.765s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/bin'
+[10.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.ps1'
+[10.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.dsv'
+[10.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.sh'
+[10.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.bash'
+[10.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.zsh'
+[10.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/leg_detector/share/colcon-core/packages/leg_detector)
+[10.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_social_costmap_plugin)
+[10.926s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin' for CMake module files
+[10.926s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin' for CMake config files
+[10.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_social_costmap_plugin', 'cmake_prefix_path')
+[10.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/cmake_prefix_path.ps1'
+[10.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/cmake_prefix_path.dsv'
+[10.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/cmake_prefix_path.sh'
+[10.970s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib'
+[10.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_social_costmap_plugin', 'ld_library_path_lib')
+[11.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/ld_library_path_lib.ps1'
+[11.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/ld_library_path_lib.dsv'
+[11.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/hook/ld_library_path_lib.sh'
+[11.038s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/bin'
+[11.040s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/pkgconfig/nav2_social_costmap_plugin.pc'
+[11.042s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib/python3.10/site-packages'
+[11.044s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/bin'
+[11.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.ps1'
+[11.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.dsv'
+[11.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.sh'
+[11.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.bash'
+[11.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/nav2_social_costmap_plugin/package.zsh'
+[11.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/nav2_social_costmap_plugin/share/colcon-core/packages/nav2_social_costmap_plugin)
+[11.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leg_detector)
+[11.155s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector' for CMake module files
+[11.156s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector' for CMake config files
+[11.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('leg_detector', 'cmake_prefix_path')
+[11.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/hook/cmake_prefix_path.ps1'
+[11.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/hook/cmake_prefix_path.dsv'
+[11.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/hook/cmake_prefix_path.sh'
+[11.189s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/lib'
+[11.189s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/bin'
+[11.189s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/lib/pkgconfig/leg_detector.pc'
+[11.190s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/lib/python3.10/site-packages'
+[11.190s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/leg_detector/bin'
+[11.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.ps1'
+[11.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.dsv'
+[11.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.sh'
+[11.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.bash'
+[11.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/leg_detector/share/leg_detector/package.zsh'
+[11.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/leg_detector/share/colcon-core/packages/leg_detector)
+[11.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alex/ros2_ws/src/people_pub': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/people_pub build --build-base /home/alex/ros2_ws/build/people_pub/build install --record /home/alex/ros2_ws/build/people_pub/install.log --single-version-externally-managed
+[11.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alex/ros2_ws/src/people_pub' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/people_pub build --build-base /home/alex/ros2_ws/build/people_pub/build install --record /home/alex/ros2_ws/build/people_pub/install.log --single-version-externally-managed
+[11.969s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub' for CMake module files
+[11.970s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub' for CMake config files
+[11.971s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub/lib'
+[11.972s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub/bin'
+[11.973s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub/lib/pkgconfig/people_pub.pc'
+[11.973s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages'
+[11.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('people_pub', 'pythonpath')
+[12.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_pub/share/people_pub/hook/pythonpath.ps1'
+[12.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alex/ros2_ws/install/people_pub/share/people_pub/hook/pythonpath.dsv'
+[12.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alex/ros2_ws/install/people_pub/share/people_pub/hook/pythonpath.sh'
+[12.008s] Level 1:colcon.colcon_core.environment:checking '/home/alex/ros2_ws/install/people_pub/bin'
+[12.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(people_pub)
+[12.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_pub/share/people_pub/package.ps1'
+[12.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alex/ros2_ws/install/people_pub/share/people_pub/package.dsv'
+[12.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_pub/share/people_pub/package.sh'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_pub/share/people_pub/package.bash'
+[12.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/alex/ros2_ws/install/people_pub/share/people_pub/package.zsh'
+[12.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alex/ros2_ws/install/people_pub/share/colcon-core/packages/people_pub)
+[12.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.077s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.147s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.147s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.147s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.179s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ros2_ws/install/local_setup.ps1'
+[12.221s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alex/ros2_ws/install/_local_setup_util_ps1.py'
+[12.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ros2_ws/install/setup.ps1'
+[12.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ros2_ws/install/local_setup.sh'
+[12.265s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alex/ros2_ws/install/_local_setup_util_sh.py'
+[12.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ros2_ws/install/setup.sh'
+[12.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ros2_ws/install/local_setup.bash'
+[12.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ros2_ws/install/setup.bash'
+[12.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alex/ros2_ws/install/local_setup.zsh'
+[12.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alex/ros2_ws/install/setup.zsh'

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from leg_detector_msgs/msg/HumanArray.msg
+// generated code does not contain a copyright notice
+
+#include "leg_detector_msgs/msg/Human.idl"
+#include "std_msgs/msg/Header.idl"
+
+module leg_detector_msgs {
+  module msg {
+    struct HumanArray {
+      std_msgs::msg::Header header;
+
+      sequence<leg_detector_msgs::msg::Human> people;
+    };
+  };
+};

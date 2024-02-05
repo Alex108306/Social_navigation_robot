@@ -1,0 +1,218 @@
+[0.504s] Invoking command in '/home/alex/ros2_ws/build/people_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/people_msgs -- -j4 -l4
+[0.731s] [  1%] Built target people_msgs__cpp
+[0.868s] [  1%] Built target ament_cmake_python_copy_people_msgs
+[0.940s] [ 12%] Built target people_msgs__rosidl_typesupport_fastrtps_cpp
+[1.030s] [ 23%] Built target people_msgs__rosidl_typesupport_introspection_cpp
+[1.829s] running egg_info
+[1.839s] writing people_msgs.egg-info/PKG-INFO
+[1.840s] writing dependency_links to people_msgs.egg-info/dependency_links.txt
+[1.840s] writing top-level names to people_msgs.egg-info/top_level.txt
+[1.842s] reading manifest file 'people_msgs.egg-info/SOURCES.txt'
+[1.844s] writing manifest file 'people_msgs.egg-info/SOURCES.txt'
+[1.962s] [ 23%] Built target ament_cmake_python_build_people_msgs_egg
+[2.101s] [ 34%] Built target people_msgs__rosidl_typesupport_cpp
+[2.207s] [ 46%] Built target people_msgs__rosidl_generator_c
+[2.319s] [ 57%] Built target people_msgs__rosidl_typesupport_fastrtps_c
+[2.386s] [ 68%] Built target people_msgs__rosidl_typesupport_c
+[2.507s] [ 79%] Built target people_msgs__rosidl_typesupport_introspection_c
+[2.613s] [ 79%] Built target people_msgs
+[2.682s] [ 80%] Built target people_msgs__py
+[2.771s] [ 90%] Built target people_msgs__rosidl_generator_py
+[2.871s] [ 93%] Built target people_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.995s] [ 96%] Built target people_msgs__rosidl_typesupport_c__pyext
+[3.048s] [100%] Built target people_msgs__rosidl_typesupport_introspection_c__pyext
+[3.081s] Invoked command in '/home/alex/ros2_ws/build/people_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/people_msgs -- -j4 -l4
+[3.855s] Invoking command in '/home/alex/ros2_ws/build/people_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/people_msgs
+[3.875s] -- Install configuration: ""
+[3.875s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/rosidl_interfaces/people_msgs
+[3.876s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs
+[3.876s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg
+[3.876s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person.h
+[3.877s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person_stamped.h
+[3.877s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail
+[3.877s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__struct.h
+[3.877s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__functions.c
+[3.877s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__struct.h
+[3.878s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__functions.h
+[3.878s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__type_support.h
+[3.879s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__functions.h
+[3.879s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__functions.h
+[3.879s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__functions.h
+[3.879s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__type_support.h
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__functions.c
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__type_support.h
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__functions.c
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__functions.c
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__struct.h
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__functions.c
+[3.880s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__type_support.h
+[3.881s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__struct.h
+[3.881s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__type_support.h
+[3.881s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__struct.h
+[3.881s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__functions.h
+[3.881s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.881s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/people.h
+[3.882s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement_array.h
+[3.882s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement.h
+[3.882s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/library_path.sh
+[3.882s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/library_path.dsv
+[3.883s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_generator_c.so
+[3.883s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs
+[3.883s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg
+[3.884s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail
+[3.884s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_fastrtps_c.h
+[3.884s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h
+[3.886s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_fastrtps_c.h
+[3.886s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_fastrtps_c.h
+[3.887s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.889s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_fastrtps_c.so
+[3.890s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs
+[3.890s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg
+[3.891s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement_array.hpp
+[3.891s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/people.hpp
+[3.891s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail
+[3.891s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__builder.hpp
+[3.892s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__builder.hpp
+[3.892s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__struct.hpp
+[3.892s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__builder.hpp
+[3.892s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__traits.hpp
+[3.892s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__struct.hpp
+[3.892s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__struct.hpp
+[3.893s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__traits.hpp
+[3.894s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__struct.hpp
+[3.894s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__traits.hpp
+[3.895s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__builder.hpp
+[3.895s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__traits.hpp
+[3.896s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__struct.hpp
+[3.896s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__builder.hpp
+[3.897s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__traits.hpp
+[3.897s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person.hpp
+[3.898s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/person_stamped.hpp
+[3.898s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/position_measurement.hpp
+[3.899s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs
+[3.899s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg
+[3.899s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail
+[3.900s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/dds_fastrtps
+[3.900s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_fastrtps_cpp.hpp
+[3.900s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.901s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.902s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.903s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs
+[3.903s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg
+[3.903s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail
+[3.904s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_introspection_c.h
+[3.904s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_introspection_c.h
+[3.904s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__type_support.c
+[3.904s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h
+[3.904s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__type_support.c
+[3.905s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_introspection_c.h
+[3.905s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__type_support.c
+[3.905s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_introspection_c.h
+[3.905s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__type_support.c
+[3.905s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__type_support.c
+[3.905s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.906s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_introspection_c.so
+[3.907s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_c.so
+[3.908s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs
+[3.908s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg
+[3.908s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail
+[3.908s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__rosidl_typesupport_introspection_cpp.hpp
+[3.909s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.909s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__type_support.cpp
+[3.909s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/people__type_support.cpp
+[3.909s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__rosidl_typesupport_introspection_cpp.hpp
+[3.909s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__type_support.cpp
+[3.910s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp
+[3.910s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/person_stamped__type_support.cpp
+[3.911s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement__type_support.cpp
+[3.911s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/include/people_msgs/people_msgs/msg/detail/position_measurement_array__rosidl_typesupport_introspection_cpp.hpp
+[3.915s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_introspection_cpp.so
+[3.915s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_typesupport_cpp.so
+[3.916s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/pythonpath.sh
+[3.916s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/pythonpath.dsv
+[3.917s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info
+[3.917s] -- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.917s] -- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.918s] -- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.918s] -- Installing: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.923s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs
+[3.924s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/_people_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.924s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.924s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/libpeople_msgs__rosidl_generator_py.so
+[3.924s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/_people_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.925s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg
+[3.934s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_people.py
+[3.934s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_people_s.c
+[3.934s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_s.c
+[3.934s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_array.py
+[3.935s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_stamped.py
+[3.935s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_s.c
+[3.935s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement_array_s.c
+[3.935s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person_stamped_s.c
+[3.935s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/__init__.py
+[3.936s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_person.py
+[3.936s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg/_position_measurement.py
+[3.936s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.937s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/__init__.py
+[3.937s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.943s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/_people_msgs_s.ep.rosidl_typesupport_c.c
+[4.018s] Listing '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs'...
+[4.019s] Listing '/home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/msg'...
+[4.026s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.029s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.029s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/local/lib/python3.10/dist-packages/people_msgs/people_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/lib/libpeople_msgs__rosidl_generator_py.so
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/People.idl
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/Person.idl
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PersonStamped.idl
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurement.idl
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurementArray.idl
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/People.msg
+[4.030s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/Person.msg
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PersonStamped.msg
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurement.msg
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/msg/PositionMeasurementArray.msg
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/package_run_dependencies/people_msgs
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/parent_prefix_path/people_msgs
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/ament_prefix_path.sh
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/ament_prefix_path.dsv
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/path.sh
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/environment/path.dsv
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.bash
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.sh
+[4.031s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.zsh
+[4.032s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/local_setup.dsv
+[4.032s] -- Installing: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.dsv
+[4.032s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/ament_index/resource_index/packages/people_msgs
+[4.032s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_cExport.cmake
+[4.032s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.032s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.032s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.033s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_cppExport.cmake
+[4.033s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.034s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cExport.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.037s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cppExport.cmake
+[4.038s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.038s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_pyExport.cmake
+[4.061s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/export_people_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.061s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/rosidl_cmake-extras.cmake
+[4.068s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.077s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgsConfig.cmake
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/cmake/people_msgsConfig-version.cmake
+[4.078s] -- Up-to-date: /home/alex/ros2_ws/install/people_msgs/share/people_msgs/package.xml
+[4.078s] Invoked command in '/home/alex/ros2_ws/build/people_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/people_pub:/home/alex/ros2_ws/install/get_state_human:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/people_msgs

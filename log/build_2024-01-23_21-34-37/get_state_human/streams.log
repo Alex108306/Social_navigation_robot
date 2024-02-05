@@ -1,0 +1,22 @@
+[1.080s] Invoking command in '/home/alex/ros2_ws/src/get_state_human': PYTHONPATH=/home/alex/ros2_ws/build/get_state_human/prefix_override:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/get_state_human build --build-base /home/alex/ros2_ws/build/get_state_human/build install --record /home/alex/ros2_ws/build/get_state_human/install.log --single-version-externally-managed
+[1.388s] running egg_info
+[1.389s] writing ../../build/get_state_human/get_state_human.egg-info/PKG-INFO
+[1.389s] writing dependency_links to ../../build/get_state_human/get_state_human.egg-info/dependency_links.txt
+[1.390s] writing entry points to ../../build/get_state_human/get_state_human.egg-info/entry_points.txt
+[1.390s] writing requirements to ../../build/get_state_human/get_state_human.egg-info/requires.txt
+[1.390s] writing top-level names to ../../build/get_state_human/get_state_human.egg-info/top_level.txt
+[1.392s] reading manifest file '../../build/get_state_human/get_state_human.egg-info/SOURCES.txt'
+[1.393s] adding license file 'LICENSE'
+[1.393s] writing manifest file '../../build/get_state_human/get_state_human.egg-info/SOURCES.txt'
+[1.394s] running build
+[1.394s] running build_py
+[1.394s] running install
+[1.394s] running install_lib
+[1.396s] running install_data
+[1.397s] running install_egg_info
+[1.399s] removing '/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human-0.0.0-py3.10.egg-info' (and everything under it)
+[1.399s] Copying ../../build/get_state_human/get_state_human.egg-info to /home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages/get_state_human-0.0.0-py3.10.egg-info
+[1.403s] running install_scripts
+[1.422s] Installing social script to /home/alex/ros2_ws/install/get_state_human/lib/get_state_human
+[1.423s] writing list of installed files to '/home/alex/ros2_ws/build/get_state_human/install.log'
+[1.688s] Invoked command in '/home/alex/ros2_ws/src/get_state_human' returned '0': PYTHONPATH=/home/alex/ros2_ws/build/get_state_human/prefix_override:/home/alex/ros2_ws/install/get_state_human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/get_state_human build --build-base /home/alex/ros2_ws/build/get_state_human/build install --record /home/alex/ros2_ws/build/get_state_human/install.log --single-version-externally-managed

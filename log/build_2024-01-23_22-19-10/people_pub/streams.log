@@ -1,0 +1,22 @@
+[0.994s] Invoking command in '/home/alex/ros2_ws/src/people_pub': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/people_pub build --build-base /home/alex/ros2_ws/build/people_pub/build install --record /home/alex/ros2_ws/build/people_pub/install.log --single-version-externally-managed
+[1.287s] running egg_info
+[1.288s] writing ../../build/people_pub/people_pub.egg-info/PKG-INFO
+[1.288s] writing dependency_links to ../../build/people_pub/people_pub.egg-info/dependency_links.txt
+[1.288s] writing entry points to ../../build/people_pub/people_pub.egg-info/entry_points.txt
+[1.288s] writing requirements to ../../build/people_pub/people_pub.egg-info/requires.txt
+[1.288s] writing top-level names to ../../build/people_pub/people_pub.egg-info/top_level.txt
+[1.290s] reading manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'
+[1.291s] adding license file 'LICENSE'
+[1.291s] writing manifest file '../../build/people_pub/people_pub.egg-info/SOURCES.txt'
+[1.291s] running build
+[1.292s] running build_py
+[1.292s] running install
+[1.292s] running install_lib
+[1.293s] running install_data
+[1.294s] running install_egg_info
+[1.296s] removing '/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.296s] Copying ../../build/people_pub/people_pub.egg-info to /home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages/people_pub-0.0.0-py3.10.egg-info
+[1.297s] running install_scripts
+[1.319s] Installing people_publish script to /home/alex/ros2_ws/install/people_pub/lib/people_pub
+[1.319s] writing list of installed files to '/home/alex/ros2_ws/build/people_pub/install.log'
+[1.346s] Invoked command in '/home/alex/ros2_ws/src/people_pub' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/people_msgs:/home/alex/ros2_ws/install/leg_detector_msgs:/home/alex/ros2_ws/install/nav2_social_costmap_plugin:/home/alex/ros2_ws/install/leg_detector:/home/alex/ros2_ws/install/articubot_one LD_LIBRARY_PATH=/home/alex/ros2_ws/install/people_msgs/lib:/home/alex/ros2_ws/install/leg_detector_msgs/lib:/home/alex/ros2_ws/install/nav2_social_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/alex/ros2_ws/build/people_pub/prefix_override:/home/alex/ros2_ws/install/people_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/people_pub build --build-base /home/alex/ros2_ws/build/people_pub/build install --record /home/alex/ros2_ws/build/people_pub/install.log --single-version-externally-managed
